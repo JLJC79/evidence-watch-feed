@@ -1,0 +1,21 @@
+{
+ "doi": "10.1177/00111287261490565",
+ "url": "https://doi.org/10.1177/00111287261490565",
+ "title": "The Rainbow Tax? Sexual Orientation Disparities in Identity Theft and Recovery Burdens",
+ "journal": "Crime & Delinquency",
+ "issn": "0011-1287",
+ "authors": [
+  "Alenzi"
+ ],
+ "author_label": "Alenzi",
+ "published": "2026-09-21",
+ "created": "2026-09-21",
+ "online_date": "2026-09-21",
+ "date_label": "21 Sep 2026",
+ "meta_date": "21 September 2026",
+ "open_access": false,
+ "has_abstract": true,
+ "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261490565.json",
+ "abstract": "Identity theft can impose financial and institutional burdens long after the initial misuse is discovered, yet sexual-orientation disparities in these outcomes remain understudied. We analyzed the 2021 National Crime Victimization Survey Identity Theft Supplement to compare past-year identity-theft prevalence and post-victimization consequences among respondents who identified as straight and those who identified as lesbian, gay, or bisexual (LGB). The primary analytic sample comprised 23,016 respondents, 648 of whom identified as LGB. Survey-weighted prevalence models adjusted for prespecified demographic covariates; victim-only models further adjusted for identity-theft subtype. Because the sexual-orientation item was administered only to a structurally routed subset, we supplemented analytic-sample estimates with population partial-identification regions and routing-aware inverse-probability-weighting sensitivity analyses. LGB status was associated with higher adjusted odds of identity theft (OR = 1.60, 95% CI [1.21, 2.12]), downstream financial problems among victims (OR = 2.35, [1.25, 4.41]), and positive out-of-pocket loss (OR = 2.26, [1.42, 3.61]). Among victims with positive loss, the adjusted amount difference was near zero, while an unadjusted Lee-style LGB-to-straight geometric-mean ratio sensitivity region spanned 0.20 to 5.95. Analytic-sample results indicate greater recovery burdens among LGB victims, but population prevalence direction and conditional loss severity remain assumption-dependent.",
+ "publisher_url": "https://doi.org/10.1177/00111287261490565"
+}

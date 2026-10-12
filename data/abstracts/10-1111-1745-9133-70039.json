@@ -1,0 +1,23 @@
+{
+ "doi": "10.1111/1745-9133.70039",
+ "url": "https://doi.org/10.1111/1745-9133.70039",
+ "title": "Optimizing patrol time in crime hot spots: Replicating the “Koper Curve”",
+ "journal": "Criminology & Public Policy",
+ "issn": "1745-9133",
+ "authors": [
+  "Koper",
+  "Wollman",
+  "Oestmo"
+ ],
+ "author_label": "Koper et al.",
+ "published": "2026-09-11",
+ "created": "2026-09-11",
+ "online_date": "2026-09-11",
+ "date_label": "11 Sep 2026",
+ "meta_date": "11 September 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70039.json",
+ "abstract": "Research Summary In a study published more than 30 years ago, Koper found that patrol visits to crime hot spots were most effective in deterring crime and disorder when they were 11–15 min in length. This finding, popularly known as the “Koper Curve,” has had a substantial influence on police practice and research. Although the efficacy of this strategy has been demonstrated in many field studies, Koper's analysis, which was based on observational data collected during the Minneapolis Preventive Patrol Experiment, has not been replicated in other settings. In this study, we seek to replicate and extend the Koper Curve finding by investigating the initial and residual deterrence patterns of more than 152,000 hot spot patrols conducted by police in 10 U.S. cities. Employing survival analysis to examine the time from each patrol to the next officially recorded crime incident, we also find that patrols in the range of 11–15 min are generally associated with the greatest reduction in the risk of a new crime. This pattern holds across the full sample and is similar in eight of 10 cities. Further, we find no evidence in any location that patrols are more effective when longer than 15 min. Policy Implications Our study supports the general guideline that everyday routine hot spot patrols should be about 11–15 min in length (and no longer) for optimal efficiency and effectiveness. Following this guideline should help prevent crime and disorder in hot spots while making efficient use of police resources and minimizing overpolicing of these locations. Further research is needed, however, on the optimal frequency of hot spot patrols, best activities for officers to conduct during these patrols, and the theoretical mechanisms that govern the initial and residual effects of patrol at micro units of place and time.",
+ "publisher_url": "https://doi.org/10.1111/1745-9133.70039"
+}

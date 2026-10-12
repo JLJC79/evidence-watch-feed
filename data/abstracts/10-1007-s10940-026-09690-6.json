@@ -1,0 +1,26 @@
+{
+ "doi": "10.1007/s10940-026-09690-6",
+ "url": "https://doi.org/10.1007/s10940-026-09690-6",
+ "title": "Evaluating the Effect of Enhanced LED Street Lighting on Nighttime Crime in Newark, New Jersey",
+ "journal": "Journal of Quantitative Criminology",
+ "issn": "0748-4518",
+ "authors": [
+  "Giménez-Santana",
+  "Tissandier",
+  "Zlaoui",
+  "Santos",
+  "Caplan",
+  "Kennedy"
+ ],
+ "author_label": "Giménez-Santana et al.",
+ "published": "2026-09-24",
+ "created": "2026-09-24",
+ "online_date": "2026-09-24",
+ "date_label": "24 Sep 2026",
+ "meta_date": "24 September 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09690-6.json",
+ "abstract": "Objectives This study evaluates the deterrent effect of enhanced street lighting on crime in the City of Newark, NJ. Between 2019 and 2021, a prioritization program was launched to replace high-pressure sodium lights (HPS) with light-emitting diodes (LED) fixtures across the City of Newark, NJ. Grounded in environmental criminology, which underscores the influence of the physical environment on criminal behavior, we explore the effect of enhanced street lighting on the distribution of nighttime crime. We hypothesize that enhancing street lighting in crime-prone areas can be an effective crime reduction strategy to improve public safety and community well-being. Methods Leveraging a quasi-experimental design, we analyze a three-year replacement initiative involving approximately 1,500 streetlight poles fitted with new LED fixtures. We evaluate the program’s impact on both violent and property crime, at both the aggregate and disaggregated levels, using a Difference-in-Differences (DiD) methodology and the Gardner estimator. Results Our findings reveal a significant short-term reduction in nighttime and outdoor violent crime of approximately 46% in the first two quarters post-replacement; the effect is mainly driven by a decrease in aggravated assaults and robberies. However, this effect disappears after two quarters, suggesting an adaptation to the new lighting environment. Long-term analysis does not show any significant reduction in violent or property crime, up to two years post-replacement. Conclusions The results of this study suggest that enhanced street lighting can be an effective strategy for reducing nighttime violent crime in urban areas. However, this deterrent effect diminishes over time, possibly indicating that motivated offenders adapt to these environments. Other factors, such as changes over time in the conditions of streetlighting equipment, may also contribute to suboptimal streetlighting conditions, attracting crime in these areas.",
+ "publisher_url": "https://doi.org/10.1007/s10940-026-09690-6"
+}

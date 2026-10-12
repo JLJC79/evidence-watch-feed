@@ -1,0 +1,24 @@
+{
+ "doi": "10.1111/1745-9125.70069",
+ "url": "https://doi.org/10.1111/1745-9125.70069",
+ "title": "Criminal history's expiration date: Evidence of prediction decay",
+ "journal": "Criminology",
+ "issn": "0011-1384",
+ "authors": [
+  "Hamilton",
+  "Kigerl",
+  "Tostlebe",
+  "Ursino"
+ ],
+ "author_label": "Hamilton et al.",
+ "published": "2026-09-19",
+ "created": "2026-09-19",
+ "online_date": "2026-09-19",
+ "date_label": "19 Sep 2026",
+ "meta_date": "19 September 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70069.json",
+ "abstract": "Criminal history is a well‐established predictor of future offending, yet recidivism risk declines with time. Research has struggled to reconcile this tension as criminal history is often treated as a static indicator of risk, while desistance is commonly inferred rather than directly modeled. Using a five‐state population of criminal charges spanning 40 years ( N = 16,594,838; person‐year observations = 746,396,524), we model recidivism prediction decay following a prior charge. We develop an event‐level framework that estimates the year‐by‐year decline in predictive value associated with prior criminal events, providing the first population‐scale estimates of criminal history decay. Results indicate that recidivism risk follows a pattern consistent with exponential decay, with each additional year producing a proportional reduction in offending odds. After accounting for individual heterogeneity, the same exponential pattern is evident across geographic locations, demographic groups, offense types, incarceration exposure, and historical period. Finally, although baseline probabilities differ, recidivism risk converges with the population base rate within 9–10 years. These findings provide a dynamic framework for assessing criminal history and challenge reliance on static indicators that may overstate reoffending risk.",
+ "publisher_url": "https://doi.org/10.1111/1745-9125.70069"
+}

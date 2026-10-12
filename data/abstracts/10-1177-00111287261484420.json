@@ -1,0 +1,22 @@
+{
+ "doi": "10.1177/00111287261484420",
+ "url": "https://doi.org/10.1177/00111287261484420",
+ "title": "Did Spain’s Action Plan Against Hate Crimes Increase Reporting? Evidence from a Causal Impact Analysis",
+ "journal": "Crime & Delinquency",
+ "issn": "0011-1287",
+ "authors": [
+  "Matilla-Molina",
+  "Muñoz"
+ ],
+ "author_label": "Matilla-Molina and Muñoz",
+ "published": "2026-09-07",
+ "created": "2026-09-08",
+ "online_date": "2026-09-07",
+ "date_label": "7 Sep 2026",
+ "meta_date": "7 September 2026",
+ "open_access": false,
+ "has_abstract": true,
+ "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261484420.json",
+ "abstract": "Hate crime underreporting in Spain constrains victim support and evidence-based policy. We test whether Spain’s Action Plan to Combat Hate Crimes (2019–2021) increased recorded incidents by improving reporting and detection. Using Bayesian structural time series causal impact analysis, we model monthly counts from Spain’s Statistical System of Criminality (January 2015–December 2021) with Germany and Finland as predictive covariates. The model learns the pre-intervention relationship and forecasts the post-intervention counterfactual. Recorded incidents increased by 20.3% (95% credible interval 10.5%–30.3%); excluding 2020, the increase was 27.3% (16.3%–39.2%). Placebo and sensitivity tests support a policy-specific effect (posterior probability > 0.99). Findings are consistent with improved awareness, recording, and reporting rather than higher victimization.",
+ "publisher_url": "https://doi.org/10.1177/00111287261484420"
+}
