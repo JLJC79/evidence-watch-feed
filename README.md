@@ -1,9 +1,9 @@
 # Evidence & Policy Watch — Crossref feed
 
-A small, dependency-free pipeline that pulls recent journal-article records for the 15
+A small, dependency-free pipeline that pulls recent journal-article records for the 14
 journals tracked by the Threshold Research Group *Evidence & Policy Watch* from the Crossref
 REST API once a week and publishes them as static files on GitHub Pages. The weekly
-issue-building run then makes **one** fetch of `data/index.json` instead of 15–20 calls to
+issue-building run then makes **one** fetch of `data/index.json` instead of twenty-odd calls to
 `api.crossref.org` through a rate-limited proxy.
 
 ## What gets published
@@ -37,7 +37,7 @@ nothing disappears silently. *Journal of Criminal Justice* records use the Cross
    `https://<your-github-username>.github.io/<repository-name>/data/index.json`
 
 5. **Check the file in a browser.** You should see `"generated_at_brisbane"` near the top and
-   fifteen journal entries. `data/index.md` is easier to read.
+   fourteen journal entries. `data/index.md` is easier to read.
 6. **Send the URL to the issue-building task** so its prompt can be updated to read the file
    instead of calling Crossref directly.
 

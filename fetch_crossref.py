@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Weekly Crossref pull for the Threshold Research Group 'Evidence & Policy Watch'.
 
-Pulls recent journal-article records for the 15 tracked journals from the Crossref REST API
+Pulls recent journal-article records for the 14 tracked journals from the Crossref REST API
 (polite pool) and writes them to a static folder that GitHub Pages serves, so the weekly
-issue-building run makes one fetch of data/index.json instead of 15-20 calls to
+issue-building run makes one fetch of data/index.json instead of twenty-odd calls to
 api.crossref.org through a rate-limited proxy.
 
 Outputs (under --out, default ./data):
@@ -43,7 +43,6 @@ JOURNALS = [
     ("Justice Quarterly", "0741-8825", "published"),
     ("Crime & Delinquency", "0011-1287", "published"),
     ("British Journal of Criminology", "0007-0955", "published"),
-    ("Australian & New Zealand Journal of Criminology", "0004-8658", "published"),
     ("Criminal Justice and Behavior", "0093-8548", "published"),
     ("Sexual Abuse", "1079-0632", "published"),
     ("Journal of Sexual Aggression", "1355-2600", "published"),
@@ -271,6 +270,11 @@ def main() -> int:
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
     base_url = args.base_url.rstrip("/")
+    # GitHub passes the repository owner with its original capitalisation; hostnames are
+    # case-insensitive, but keep the published URLs tidy.
+    m = re.match(r"^(https?://)([^/]+)(.*)$", base_url)
+    if m:
+        base_url = m.group(1) + m.group(2).lower() + m.group(3)
 
     now_utc = dt.datetime.now(dt.timezone.utc)
     brisbane = now_utc.astimezone(dt.timezone(dt.timedelta(hours=10)))
