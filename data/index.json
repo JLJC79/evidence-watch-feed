@@ -1,11 +1,11 @@
 {
- "generated_at_utc": "2026-10-12T08:54:26Z",
- "generated_at_brisbane": "2026-10-12 18:54 AEST",
- "window_from": "2026-09-07",
+ "generated_at_utc": "2026-10-18T10:12:32Z",
+ "generated_at_brisbane": "2026-10-18 20:12 AEST",
+ "window_from": "2026-09-13",
  "window_days": 35,
- "journal_count": 15,
+ "journal_count": 14,
  "journals_failed": 0,
- "article_count": 102,
+ "article_count": 111,
  "notes": [
   "Order of 'journals' is the fixed order the issue must use.",
   "online_date is 'created' for Journal of Criminal Justice (items are in press) and the online publication date otherwise.",
@@ -20,7 +20,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 4,
+   "total_results": 3,
    "items": [
     {
      "doi": "10.1111/1745-9125.70071",
@@ -39,7 +39,7 @@
      "meta_date": "9 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70071.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70071.json"
     },
     {
      "doi": "10.1111/1745-9125.70070",
@@ -59,7 +59,7 @@
      "meta_date": "26 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70070.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70070.json"
     },
     {
      "doi": "10.1111/1745-9125.70069",
@@ -81,27 +81,7 @@
      "meta_date": "19 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70069.json"
-    },
-    {
-     "doi": "10.1111/1745-9125.70060",
-     "url": "https://doi.org/10.1111/1745-9125.70060",
-     "title": "Layered abandonment: The moral interpretation of suffering in extreme confinement",
-     "journal": "Criminology",
-     "issn": "0011-1384",
-     "authors": [
-      "Taxhjelm",
-      "Laursen"
-     ],
-     "author_label": "Taxhjelm and Laursen",
-     "published": "2026-09-08",
-     "created": "2026-09-08",
-     "online_date": "2026-09-08",
-     "date_label": "8 Sep 2026",
-     "meta_date": "8 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70060.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70069.json"
     }
    ],
    "dropped": []
@@ -112,8 +92,90 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 7,
+   "total_results": 9,
    "items": [
+    {
+     "doi": "10.1111/1745-9133.70046",
+     "url": "https://doi.org/10.1111/1745-9133.70046",
+     "title": "A picture worth a thousand words: The effect of murals on crime",
+     "journal": "Criminology & Public Policy",
+     "issn": "1745-9133",
+     "authors": [
+      "Moritz"
+     ],
+     "author_label": "Moritz",
+     "published": "2026-10-13",
+     "created": "2026-10-13",
+     "online_date": "2026-10-13",
+     "date_label": "13 Oct 2026",
+     "meta_date": "13 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70046.json"
+    },
+    {
+     "doi": "10.1111/1745-9133.70044",
+     "url": "https://doi.org/10.1111/1745-9133.70044",
+     "title": "Advocates for Community Transformation: Using the civil justice system to tackle drug houses and empower residents",
+     "journal": "Criminology & Public Policy",
+     "issn": "1745-9133",
+     "authors": [
+      "Uding",
+      "Adeyemi",
+      "Heppenstall",
+      "Kleven"
+     ],
+     "author_label": "Uding et al.",
+     "published": "2026-10-13",
+     "created": "2026-10-13",
+     "online_date": "2026-10-13",
+     "date_label": "13 Oct 2026",
+     "meta_date": "13 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70044.json"
+    },
+    {
+     "doi": "10.1111/1745-9133.70045",
+     "url": "https://doi.org/10.1111/1745-9133.70045",
+     "title": "Do targeted, place‐based educational campaigns influence citizen engagement and violent crime? A quasi‐experiment of the alert conscience technique of situational crime prevention",
+     "journal": "Criminology & Public Policy",
+     "issn": "1745-9133",
+     "authors": [
+      "Piza",
+      "Harkins",
+      "Hazen"
+     ],
+     "author_label": "Piza et al.",
+     "published": "2026-10-12",
+     "created": "2026-10-12",
+     "online_date": "2026-10-12",
+     "date_label": "12 Oct 2026",
+     "meta_date": "12 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70045.json"
+    },
+    {
+     "doi": "10.1111/1745-9133.70048",
+     "url": "https://doi.org/10.1111/1745-9133.70048",
+     "title": "Designing effective crime prevention policies: Editors’ introduction",
+     "journal": "Criminology & Public Policy",
+     "issn": "1745-9133",
+     "authors": [
+      "Moreto",
+      "Braga"
+     ],
+     "author_label": "Moreto and Braga",
+     "published": "2026-10-12",
+     "created": "2026-10-12",
+     "online_date": "2026-10-12",
+     "date_label": "12 Oct 2026",
+     "meta_date": "12 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70048.json"
+    },
     {
      "doi": "10.1111/1745-9133.70042",
      "url": "https://doi.org/10.1111/1745-9133.70042",
@@ -133,7 +195,7 @@
      "meta_date": "6 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70042.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70042.json"
     },
     {
      "doi": "10.1111/1745-9133.70036",
@@ -152,7 +214,7 @@
      "meta_date": "6 October 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70036.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70036.json"
     },
     {
      "doi": "10.1111/1745-9133.70037",
@@ -175,7 +237,7 @@
      "meta_date": "6 October 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70037.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70037.json"
     },
     {
      "doi": "10.1111/1745-9133.70040",
@@ -195,7 +257,7 @@
      "meta_date": "27 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70040.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70040.json"
     },
     {
      "doi": "10.1111/1745-9133.70041",
@@ -218,47 +280,7 @@
      "meta_date": "24 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70041.json"
-    },
-    {
-     "doi": "10.1111/1745-9133.70038",
-     "url": "https://doi.org/10.1111/1745-9133.70038",
-     "title": "Stressed, understaffed, and stuck: Examining organizational stressors and job satisfaction in U.S. prisons",
-     "journal": "Criminology & Public Policy",
-     "issn": "1745-9133",
-     "authors": [
-      "Aranda‐Hughes"
-     ],
-     "author_label": "Aranda‐Hughes",
-     "published": "2026-09-11",
-     "created": "2026-09-11",
-     "online_date": "2026-09-11",
-     "date_label": "11 Sep 2026",
-     "meta_date": "11 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70038.json"
-    },
-    {
-     "doi": "10.1111/1745-9133.70039",
-     "url": "https://doi.org/10.1111/1745-9133.70039",
-     "title": "Optimizing patrol time in crime hot spots: Replicating the “Koper Curve”",
-     "journal": "Criminology & Public Policy",
-     "issn": "1745-9133",
-     "authors": [
-      "Koper",
-      "Wollman",
-      "Oestmo"
-     ],
-     "author_label": "Koper et al.",
-     "published": "2026-09-11",
-     "created": "2026-09-11",
-     "online_date": "2026-09-11",
-     "date_label": "11 Sep 2026",
-     "meta_date": "11 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70039.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70041.json"
     }
    ],
    "dropped": []
@@ -269,8 +291,70 @@
    "sort": "created",
    "ok": true,
    "error": null,
-   "total_results": 18,
+   "total_results": 19,
    "items": [
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102760",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102760",
+     "title": "Do early environmental factors influence the relationship between psychopathy and life outcomes: Longitudinal findings from the Dunedin multidisciplinary health and development study",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Veltman",
+      "Fanti",
+      "Poulton",
+      "Ramrakha",
+      "Sellbom"
+     ],
+     "author_label": "Veltman et al.",
+     "published": "2026-11",
+     "created": "2026-10-16",
+     "online_date": "2026-10-16",
+     "date_label": "16 Oct 2026 (in press)",
+     "meta_date": "16 October 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102760.json"
+    },
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102759",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102759",
+     "title": "Estimating the incapacitation effect on sexual offending using the actual time served by 431,632 men convicted of rape, statutory rape, attempted rape, sexual assault, forcible sodomy, and lewd sexual acts with a child (NCRP 2000–2019)",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Long"
+     ],
+     "author_label": "Long",
+     "published": "2026-11",
+     "created": "2026-10-15",
+     "online_date": "2026-10-15",
+     "date_label": "15 Oct 2026 (in press)",
+     "meta_date": "15 October 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102759.json"
+    },
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102754",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102754",
+     "title": "Racial disparities in stays of imposition under the Minnesota sentencing guidelines",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Lehmann",
+      "Garcia-Gil Sarmiento"
+     ],
+     "author_label": "Lehmann and Garcia-Gil Sarmiento",
+     "published": "2026-11",
+     "created": "2026-10-13",
+     "online_date": "2026-10-13",
+     "date_label": "13 Oct 2026 (in press)",
+     "meta_date": "13 October 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102754.json"
+    },
     {
      "doi": "10.1016/j.jcrimjus.2026.102757",
      "url": "https://doi.org/10.1016/j.jcrimjus.2026.102757",
@@ -288,7 +372,7 @@
      "meta_date": "9 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102757.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102757.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102758",
@@ -309,7 +393,7 @@
      "meta_date": "9 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102758.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102758.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102755",
@@ -330,7 +414,7 @@
      "meta_date": "6 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102755.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102755.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102753",
@@ -350,7 +434,7 @@
      "meta_date": "5 October 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102753.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102753.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102751",
@@ -370,7 +454,7 @@
      "meta_date": "5 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102751.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102751.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102752",
@@ -394,7 +478,7 @@
      "meta_date": "2 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102752.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102752.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102750",
@@ -415,7 +499,7 @@
      "meta_date": "30 September 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102750.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102750.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102749",
@@ -435,7 +519,7 @@
      "meta_date": "28 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102749.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102749.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102746",
@@ -458,7 +542,7 @@
      "meta_date": "25 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102746.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102746.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102747",
@@ -478,27 +562,7 @@
      "meta_date": "22 September 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102747.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102743",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102743",
-     "title": "‘Intersecting paths’: Overlapping characteristics of ‘wanted’ individuals and missing persons populations in the UK",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Ford",
-      "Shalev"
-     ],
-     "author_label": "Ford and Shalev",
-     "published": "2026-11",
-     "created": "2026-09-21",
-     "online_date": "2026-09-21",
-     "date_label": "21 Sep 2026 (in press)",
-     "meta_date": "21 September 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102743.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102747.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102744",
@@ -521,7 +585,27 @@
      "meta_date": "21 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102744.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102744.json"
+    },
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102743",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102743",
+     "title": "‘Intersecting paths’: Overlapping characteristics of ‘wanted’ individuals and missing persons populations in the UK",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Ford",
+      "Shalev"
+     ],
+     "author_label": "Ford and Shalev",
+     "published": "2026-11",
+     "created": "2026-09-21",
+     "online_date": "2026-09-21",
+     "date_label": "21 Sep 2026 (in press)",
+     "meta_date": "21 September 2026",
+     "open_access": true,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102743.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102748",
@@ -540,7 +624,7 @@
      "meta_date": "19 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102748.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102748.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102730",
@@ -561,7 +645,7 @@
      "meta_date": "19 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102730.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102730.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102745",
@@ -583,51 +667,7 @@
      "meta_date": "19 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102745.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102741",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102741",
-     "title": "Dad went to prison, but school goes on",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Larsen",
-      "Wakefield"
-     ],
-     "author_label": "Larsen and Wakefield",
-     "published": "2026-11",
-     "created": "2026-09-12",
-     "online_date": "2026-09-12",
-     "date_label": "12 Sep 2026 (in press)",
-     "meta_date": "12 September 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102741.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102742",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102742",
-     "title": "Simulating the probability of False Confession-Wrongful Conviction conditional on features of police interrogation: A response to",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Smith",
-      "Catlin",
-      "May",
-      "Redlich",
-      "Meissner",
-      "Kelly"
-     ],
-     "author_label": "Smith et al.",
-     "published": "2026-11",
-     "created": "2026-09-08",
-     "online_date": "2026-09-08",
-     "date_label": "8 Sep 2026 (in press)",
-     "meta_date": "8 September 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102742.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102745.json"
     }
    ],
    "dropped": [
@@ -644,8 +684,48 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 8,
+   "total_results": 10,
    "items": [
+    {
+     "doi": "10.1007/s11292-026-09789-7",
+     "url": "https://doi.org/10.1007/s11292-026-09789-7",
+     "title": "Measurement error affects predicted counterfactuals generated from criminal justice risk assessment tools",
+     "journal": "Journal of Experimental Criminology",
+     "issn": "1573-3750",
+     "authors": [
+      "Elliott",
+      "Walton"
+     ],
+     "author_label": "Elliott and Walton",
+     "published": "2026-10-17",
+     "created": "2026-10-17",
+     "online_date": "2026-10-17",
+     "date_label": "17 Oct 2026",
+     "meta_date": "17 October 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09789-7.json"
+    },
+    {
+     "doi": "10.1007/s11292-026-09788-8",
+     "url": "https://doi.org/10.1007/s11292-026-09788-8",
+     "title": "Identifying language associated with probation absconding using natural language processing: a proof-of-concept study",
+     "journal": "Journal of Experimental Criminology",
+     "issn": "1573-3750",
+     "authors": [
+      "Liu",
+      "Suzuki"
+     ],
+     "author_label": "Liu and Suzuki",
+     "published": "2026-10-14",
+     "created": "2026-10-14",
+     "online_date": "2026-10-14",
+     "date_label": "14 Oct 2026",
+     "meta_date": "14 October 2026",
+     "open_access": true,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09788-8.json"
+    },
     {
      "doi": "10.1007/s11292-026-09785-x",
      "url": "https://doi.org/10.1007/s11292-026-09785-x",
@@ -663,7 +743,7 @@
      "meta_date": "5 October 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09785-x.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09785-x.json"
     },
     {
      "doi": "10.1007/s11292-026-09772-2",
@@ -684,7 +764,7 @@
      "meta_date": "2 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09772-2.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09772-2.json"
     },
     {
      "doi": "10.1007/s11292-026-09783-z",
@@ -706,7 +786,7 @@
      "meta_date": "30 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09783-z.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09783-z.json"
     },
     {
      "doi": "10.1007/s11292-026-09786-w",
@@ -728,7 +808,7 @@
      "meta_date": "30 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09786-w.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09786-w.json"
     },
     {
      "doi": "10.1007/s11292-026-09781-1",
@@ -750,7 +830,7 @@
      "meta_date": "28 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09781-1.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09781-1.json"
     },
     {
      "doi": "10.1007/s11292-026-09784-y",
@@ -771,7 +851,7 @@
      "meta_date": "25 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09784-y.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09784-y.json"
     },
     {
      "doi": "10.1007/s11292-026-09782-0",
@@ -791,7 +871,7 @@
      "meta_date": "16 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09782-0.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09782-0.json"
     }
    ],
    "dropped": [
@@ -808,7 +888,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 5,
+   "total_results": 4,
    "items": [
     {
      "doi": "10.1007/s10940-026-09694-2",
@@ -827,7 +907,7 @@
      "meta_date": "10 October 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09694-2.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09694-2.json"
     },
     {
      "doi": "10.1007/s10940-026-09691-5",
@@ -847,7 +927,7 @@
      "meta_date": "5 October 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09691-5.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09691-5.json"
     },
     {
      "doi": "10.1007/s10940-026-09692-4",
@@ -867,7 +947,7 @@
      "meta_date": "24 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09692-4.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09692-4.json"
     },
     {
      "doi": "10.1007/s10940-026-09690-6",
@@ -891,27 +971,7 @@
      "meta_date": "24 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09690-6.json"
-    },
-    {
-     "doi": "10.1007/s10940-026-09688-0",
-     "url": "https://doi.org/10.1007/s10940-026-09688-0",
-     "title": "Minimal Intervention in the Criminal Justice System: The Effect of Prosecution Deferrals On Youth Recidivism",
-     "journal": "Journal of Quantitative Criminology",
-     "issn": "0748-4518",
-     "authors": [
-      "Al Weswasi",
-      "Kahlmeter"
-     ],
-     "author_label": "Al Weswasi and Kahlmeter",
-     "published": "2026-09-08",
-     "created": "2026-09-08",
-     "online_date": "2026-09-08",
-     "date_label": "8 Sep 2026",
-     "meta_date": "8 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09688-0.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09690-6.json"
     }
    ],
    "dropped": []
@@ -922,8 +982,31 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 1,
+   "total_results": 2,
    "items": [
+    {
+     "doi": "10.1007/s40865-026-00326-8",
+     "url": "https://doi.org/10.1007/s40865-026-00326-8",
+     "title": "Recorded Offending Trajectories Preceding Different Sanction Types: A Register-Based Study on the Ladder of Punishments",
+     "journal": "Journal of Developmental and Life-Course Criminology",
+     "issn": "2199-4641",
+     "authors": [
+      "Beuker",
+      "Suonpää",
+      "Latvala",
+      "Aaltonen",
+      "Martikainen"
+     ],
+     "author_label": "Beuker et al.",
+     "published": "2026-10-15",
+     "created": "2026-10-15",
+     "online_date": "2026-10-15",
+     "date_label": "15 Oct 2026",
+     "meta_date": "15 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s40865-026-00326-8.json"
+    },
     {
      "doi": "10.1007/s40865-026-00322-y",
      "url": "https://doi.org/10.1007/s40865-026-00322-y",
@@ -943,7 +1026,7 @@
      "meta_date": "16 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1007-s40865-026-00322-y.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s40865-026-00322-y.json"
     }
    ],
    "dropped": []
@@ -954,7 +1037,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 4,
+   "total_results": 3,
    "items": [
     {
      "doi": "10.1080/07418825.2026.2728315",
@@ -974,7 +1057,7 @@
      "meta_date": "29 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2728315.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2728315.json"
     },
     {
      "doi": "10.1080/07418825.2026.2735795",
@@ -994,7 +1077,7 @@
      "meta_date": "23 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2735795.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2735795.json"
     },
     {
      "doi": "10.1080/07418825.2026.2730087",
@@ -1013,26 +1096,7 @@
      "meta_date": "18 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2730087.json"
-    },
-    {
-     "doi": "10.1080/07418825.2026.2728316",
-     "url": "https://doi.org/10.1080/07418825.2026.2728316",
-     "title": "Formation Process of the Criminological Record",
-     "journal": "Justice Quarterly",
-     "issn": "0741-8825",
-     "authors": [
-      "Brantingham"
-     ],
-     "author_label": "Brantingham",
-     "published": "2026-09-11",
-     "created": "2026-09-11",
-     "online_date": "2026-09-11",
-     "date_label": "11 Sep 2026",
-     "meta_date": "11 September 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2728316.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2730087.json"
     }
    ],
    "dropped": []
@@ -1043,7 +1107,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 13,
+   "total_results": 9,
    "items": [
     {
      "doi": "10.1177/00111287261493937",
@@ -1064,7 +1128,7 @@
      "meta_date": "7 October 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261493937.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261493937.json"
     },
     {
      "doi": "10.1177/00111287261488775",
@@ -1086,7 +1150,7 @@
      "meta_date": "7 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488775.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488775.json"
     },
     {
      "doi": "10.1177/00111287261493936",
@@ -1106,7 +1170,7 @@
      "meta_date": "29 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261493936.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261493936.json"
     },
     {
      "doi": "10.1177/00111287261492670",
@@ -1126,7 +1190,7 @@
      "meta_date": "27 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261492670.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261492670.json"
     },
     {
      "doi": "10.1177/00111287261488781",
@@ -1150,7 +1214,7 @@
      "meta_date": "24 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488781.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488781.json"
     },
     {
      "doi": "10.1177/00111287261490565",
@@ -1169,7 +1233,7 @@
      "meta_date": "21 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261490565.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261490565.json"
     },
     {
      "doi": "10.1177/00111287261488733",
@@ -1191,7 +1255,7 @@
      "meta_date": "20 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488733.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488733.json"
     },
     {
      "doi": "10.1177/00111287261484422",
@@ -1213,7 +1277,7 @@
      "meta_date": "17 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261484422.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261484422.json"
     },
     {
      "doi": "10.1177/00111287261485827",
@@ -1234,88 +1298,7 @@
      "meta_date": "15 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261485827.json"
-    },
-    {
-     "doi": "10.1177/00111287261484420",
-     "url": "https://doi.org/10.1177/00111287261484420",
-     "title": "Did Spain’s Action Plan Against Hate Crimes Increase Reporting? Evidence from a Causal Impact Analysis",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Matilla-Molina",
-      "Muñoz"
-     ],
-     "author_label": "Matilla-Molina and Muñoz",
-     "published": "2026-09-07",
-     "created": "2026-09-08",
-     "online_date": "2026-09-07",
-     "date_label": "7 Sep 2026",
-     "meta_date": "7 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261484420.json"
-    },
-    {
-     "doi": "10.1177/00111287261485869",
-     "url": "https://doi.org/10.1177/00111287261485869",
-     "title": "Bullying Victimization and School Refusal: An Examination of Gender Differences and Intervening Mechanisms",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Lehmann",
-      "Tischer",
-      "Randa"
-     ],
-     "author_label": "Lehmann et al.",
-     "published": "2026-09-07",
-     "created": "2026-09-08",
-     "online_date": "2026-09-07",
-     "date_label": "7 Sep 2026",
-     "meta_date": "7 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261485869.json"
-    },
-    {
-     "doi": "10.1177/00111287261485821",
-     "url": "https://doi.org/10.1177/00111287261485821",
-     "title": "What Hinders Reintegration? A Qualitative Study on the Challenges Faced by Formerly Incarcerated Individuals in China",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Ren",
-      "Lai"
-     ],
-     "author_label": "Ren and Lai",
-     "published": "2026-09-07",
-     "created": "2026-09-08",
-     "online_date": "2026-09-07",
-     "date_label": "7 Sep 2026",
-     "meta_date": "7 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261485821.json"
-    },
-    {
-     "doi": "10.1177/00111287261485820",
-     "url": "https://doi.org/10.1177/00111287261485820",
-     "title": "Bargaining in the Shadow of Attorney Advice: The Effect of Defense Attorney Framing, Social Influence, and Source Credibility in Plea Decision Making",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Metcalfe",
-      "Wilson"
-     ],
-     "author_label": "Metcalfe and Wilson",
-     "published": "2026-09-07",
-     "created": "2026-09-08",
-     "online_date": "2026-09-07",
-     "date_label": "7 Sep 2026",
-     "meta_date": "7 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261485820.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261485827.json"
     }
    ],
    "dropped": []
@@ -1326,8 +1309,47 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 3,
+   "total_results": 5,
    "items": [
+    {
+     "doi": "10.1093/bjc/azag084",
+     "url": "https://doi.org/10.1093/bjc/azag084",
+     "title": "‘We’re not a criminal gang, just criminal friends’: Narrative ambiguity and identity performance in times of gang <i>mood</i>",
+     "journal": "British Journal of Criminology",
+     "issn": "0007-0955",
+     "authors": [
+      "Storm-Mathisen",
+      "Fraser"
+     ],
+     "author_label": "Storm-Mathisen and Fraser",
+     "published": "2026-10-15",
+     "created": "2026-09-26",
+     "online_date": "2026-10-15",
+     "date_label": "15 Oct 2026",
+     "meta_date": "15 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag084.json"
+    },
+    {
+     "doi": "10.1093/bjc/azag086",
+     "url": "https://doi.org/10.1093/bjc/azag086",
+     "title": "‘I just take being cheated as if I’m doing charity work’: Signal mimicry strategies in China’s illegal online sexual fiction market",
+     "journal": "British Journal of Criminology",
+     "issn": "0007-0955",
+     "authors": [
+      "Evelyn"
+     ],
+     "author_label": "Evelyn",
+     "published": "2026-10-15",
+     "created": "2026-10-03",
+     "online_date": "2026-10-15",
+     "date_label": "15 Oct 2026",
+     "meta_date": "15 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag086.json"
+    },
     {
      "doi": "10.1093/bjc/azag082",
      "url": "https://doi.org/10.1093/bjc/azag082",
@@ -1349,7 +1371,7 @@
      "meta_date": "28 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag082.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag082.json"
     },
     {
      "doi": "10.1093/bjc/azag070",
@@ -1368,7 +1390,7 @@
      "meta_date": "20 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag070.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag070.json"
     },
     {
      "doi": "10.1093/bjc/azag081",
@@ -1387,19 +1409,9 @@
      "meta_date": "16 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag081.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag081.json"
     }
    ],
-   "dropped": []
-  },
-  {
-   "name": "Australian & New Zealand Journal of Criminology",
-   "issn": "0004-8658",
-   "sort": "published",
-   "ok": true,
-   "error": null,
-   "total_results": 0,
-   "items": [],
    "dropped": []
   },
   {
@@ -1408,8 +1420,90 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 7,
+   "total_results": 11,
    "items": [
+    {
+     "doi": "10.1177/00938548261491834",
+     "url": "https://doi.org/10.1177/00938548261491834",
+     "title": "Exploring the attitudinal effects of a personality-based de-escalation training program: Findings from the National De-escalation Training Center",
+     "journal": "Criminal Justice and Behavior",
+     "issn": "0093-8548",
+     "authors": [
+      "Tosto"
+     ],
+     "author_label": "Tosto",
+     "published": "2026-10-17",
+     "created": "2026-10-17",
+     "online_date": "2026-10-17",
+     "date_label": "17 Oct 2026",
+     "meta_date": "17 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491834.json"
+    },
+    {
+     "doi": "10.1177/00938548261491325",
+     "url": "https://doi.org/10.1177/00938548261491325",
+     "title": "Criminal Offending Among Persons with and without a Mental Illness: Does Employment, Housing, and Relationship Status Matter?",
+     "journal": "Criminal Justice and Behavior",
+     "issn": "0093-8548",
+     "authors": [
+      "Markowitz",
+      "Aaltonen",
+      "Pitkänen",
+      "Martikainen"
+     ],
+     "author_label": "Markowitz et al.",
+     "published": "2026-10-17",
+     "created": "2026-10-17",
+     "online_date": "2026-10-17",
+     "date_label": "17 Oct 2026",
+     "meta_date": "17 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491325.json"
+    },
+    {
+     "doi": "10.1177/00938548261492608",
+     "url": "https://doi.org/10.1177/00938548261492608",
+     "title": "Beyond Prison Officer Types: A Latent Profile Analysis",
+     "journal": "Criminal Justice and Behavior",
+     "issn": "0093-8548",
+     "authors": [
+      "Meade",
+      "Butler",
+      "Percy"
+     ],
+     "author_label": "Meade et al.",
+     "published": "2026-10-17",
+     "created": "2026-10-17",
+     "online_date": "2026-10-17",
+     "date_label": "17 Oct 2026",
+     "meta_date": "17 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261492608.json"
+    },
+    {
+     "doi": "10.1177/00938548261491338",
+     "url": "https://doi.org/10.1177/00938548261491338",
+     "title": "“Once I Was Given the Blueprint, Couldn’t Nobody Stop Me”: Postrelease Quality of Life and Reentry Barriers of People Sentenced to Life in Prison as Children",
+     "journal": "Criminal Justice and Behavior",
+     "issn": "0093-8548",
+     "authors": [
+      "Franke",
+      "Cheston"
+     ],
+     "author_label": "Franke and Cheston",
+     "published": "2026-10-14",
+     "created": "2026-10-14",
+     "online_date": "2026-10-14",
+     "date_label": "14 Oct 2026",
+     "meta_date": "14 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491338.json"
+    },
     {
      "doi": "10.1177/00938548261491944",
      "url": "https://doi.org/10.1177/00938548261491944",
@@ -1428,7 +1522,7 @@
      "meta_date": "8 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491944.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491944.json"
     },
     {
      "doi": "10.1177/00938548261490072",
@@ -1455,7 +1549,7 @@
      "meta_date": "8 October 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261490072.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261490072.json"
     },
     {
      "doi": "10.1177/00938548261490080",
@@ -1478,7 +1572,7 @@
      "meta_date": "7 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261490080.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261490080.json"
     },
     {
      "doi": "10.1177/00938548261484618",
@@ -1498,7 +1592,7 @@
      "meta_date": "15 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261484618.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261484618.json"
     },
     {
      "doi": "10.1177/00938548261484621",
@@ -1518,7 +1612,7 @@
      "meta_date": "14 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261484621.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261484621.json"
     },
     {
      "doi": "10.1177/00938548261484630",
@@ -1538,7 +1632,7 @@
      "meta_date": "14 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261484630.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261484630.json"
     }
    ],
    "dropped": [
@@ -1575,7 +1669,7 @@
      "meta_date": "10 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261494627.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261494627.json"
     },
     {
      "doi": "10.1177/10790632261491359",
@@ -1597,7 +1691,7 @@
      "meta_date": "7 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491359.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491359.json"
     },
     {
      "doi": "10.1177/10790632261491362",
@@ -1621,7 +1715,7 @@
      "meta_date": "7 October 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491362.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491362.json"
     },
     {
      "doi": "10.1177/10790632261491365",
@@ -1643,7 +1737,7 @@
      "meta_date": "18 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491365.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491365.json"
     }
    ],
    "dropped": []
@@ -1674,7 +1768,7 @@
      "meta_date": "5 October 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2733739.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2733739.json"
     },
     {
      "doi": "10.1080/13552600.2026.2737174",
@@ -1695,7 +1789,7 @@
      "meta_date": "29 September 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2737174.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2737174.json"
     },
     {
      "doi": "10.1080/13552600.2026.2738018",
@@ -1715,7 +1809,7 @@
      "meta_date": "28 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2738018.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2738018.json"
     },
     {
      "doi": "10.1080/13552600.2026.2731030",
@@ -1738,7 +1832,7 @@
      "meta_date": "23 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2731030.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2731030.json"
     },
     {
      "doi": "10.1080/13552600.2026.2727422",
@@ -1761,7 +1855,7 @@
      "meta_date": "17 September 2026",
      "open_access": true,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2727422.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2727422.json"
     },
     {
      "doi": "10.1080/13552600.2026.2731031",
@@ -1785,7 +1879,7 @@
      "meta_date": "15 September 2026",
      "open_access": false,
      "has_abstract": false,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2731031.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2731031.json"
     }
    ],
    "dropped": []
@@ -1796,8 +1890,150 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 25,
+   "total_results": 29,
    "items": [
+    {
+     "doi": "10.1177/15248380261480165",
+     "url": "https://doi.org/10.1177/15248380261480165",
+     "title": "Intimate Partner Violence and Suicide Risk among Women Presenting to Emergency Departments: A Systematic Review, Meta-Analysis, and Narrative Synthesis",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Rasmussen",
+      "Steel",
+      "Cullen",
+      "McGillivray",
+      "Briggs",
+      "Torok"
+     ],
+     "author_label": "Rasmussen et al.",
+     "published": "2026-10-17",
+     "created": "2026-10-17",
+     "online_date": "2026-10-17",
+     "date_label": "17 Oct 2026",
+     "meta_date": "17 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480165.json"
+    },
+    {
+     "doi": "10.1177/15248380261476700",
+     "url": "https://doi.org/10.1177/15248380261476700",
+     "title": "Scoping Review of Lessons Learned During the Pandemic to Improve Intimate Partner Violence Services",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Schweinhart",
+      "Shepherd",
+      "Embry",
+      "Aramburú",
+      "Fritz",
+      "Sebastian"
+     ],
+     "author_label": "Schweinhart et al.",
+     "published": "2026-10-15",
+     "created": "2026-10-16",
+     "online_date": "2026-10-15",
+     "date_label": "15 Oct 2026",
+     "meta_date": "15 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476700.json"
+    },
+    {
+     "doi": "10.1177/15248380261480157",
+     "url": "https://doi.org/10.1177/15248380261480157",
+     "title": "Parenting for Families at Risk: A Systematic Review of the Role of Dialectical Behaviour Therapy Skills Training for Maltreatment Prevention",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Rieder",
+      "Bojman",
+      "Bennett",
+      "McCabe",
+      "Gonzalez"
+     ],
+     "author_label": "Rieder et al.",
+     "published": "2026-10-13",
+     "created": "2026-10-14",
+     "online_date": "2026-10-13",
+     "date_label": "13 Oct 2026",
+     "meta_date": "13 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480157.json"
+    },
+    {
+     "doi": "10.1177/15248380261487144",
+     "url": "https://doi.org/10.1177/15248380261487144",
+     "title": "A Scoping Review of Artificial Intelligence–Generated Image-Based Sexual Abuse: Terminology, Nature, Prevalence, Attitudes, and Harms",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Witt",
+      "Stevens",
+      "Ridgway",
+      "Ringin"
+     ],
+     "author_label": "Witt et al.",
+     "published": "2026-10-12",
+     "created": "2026-10-13",
+     "online_date": "2026-10-12",
+     "date_label": "12 Oct 2026",
+     "meta_date": "12 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261487144.json"
+    },
+    {
+     "doi": "10.1177/15248380261487136",
+     "url": "https://doi.org/10.1177/15248380261487136",
+     "title": "From Participants to Partners: A Rapid Scoping Review on the Involvement of Survivors/Victims of Intimate Partner Violence in Research",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Melvin",
+      "Melnyk",
+      "Giesbrecht",
+      "Ham",
+      "Moghimi",
+      "Wintermute",
+      "Smith",
+      "Duquette",
+      "Hilton"
+     ],
+     "author_label": "Melvin et al.",
+     "published": "2026-10-12",
+     "created": "2026-10-13",
+     "online_date": "2026-10-12",
+     "date_label": "12 Oct 2026",
+     "meta_date": "12 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261487136.json"
+    },
+    {
+     "doi": "10.1177/15248380261480149",
+     "url": "https://doi.org/10.1177/15248380261480149",
+     "title": "A Scoping Review of Reproductive Coercion and Abuse During Pregnancy",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Ghaemi Mahdavi",
+      "Taylor",
+      "Due",
+      "Sharman"
+     ],
+     "author_label": "Ghaemi Mahdavi et al.",
+     "published": "2026-10-12",
+     "created": "2026-10-13",
+     "online_date": "2026-10-12",
+     "date_label": "12 Oct 2026",
+     "meta_date": "12 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480149.json"
+    },
     {
      "doi": "10.1177/15248380261476099",
      "url": "https://doi.org/10.1177/15248380261476099",
@@ -1817,7 +2053,7 @@
      "meta_date": "7 October 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476099.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476099.json"
     },
     {
      "doi": "10.1177/15248380261487140",
@@ -1837,7 +2073,7 @@
      "meta_date": "30 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261487140.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261487140.json"
     },
     {
      "doi": "10.1177/15248380261476694",
@@ -1858,7 +2094,7 @@
      "meta_date": "29 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476694.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476694.json"
     },
     {
      "doi": "10.1177/15248380261464617",
@@ -1886,7 +2122,7 @@
      "meta_date": "29 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261464617.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261464617.json"
     },
     {
      "doi": "10.1177/15248380261478125",
@@ -1908,7 +2144,7 @@
      "meta_date": "29 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261478125.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261478125.json"
     },
     {
      "doi": "10.1177/15248380261467494",
@@ -1935,7 +2171,7 @@
      "meta_date": "29 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261467494.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261467494.json"
     },
     {
      "doi": "10.1177/15248380261476695",
@@ -1960,7 +2196,7 @@
      "meta_date": "28 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476695.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476695.json"
     },
     {
      "doi": "10.1177/15248380261476084",
@@ -1982,7 +2218,7 @@
      "meta_date": "25 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476084.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476084.json"
     },
     {
      "doi": "10.1177/15248380261483627",
@@ -2006,7 +2242,7 @@
      "meta_date": "24 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261483627.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261483627.json"
     },
     {
      "doi": "10.1177/15248380261480160",
@@ -2029,7 +2265,7 @@
      "meta_date": "24 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480160.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480160.json"
     },
     {
      "doi": "10.1177/15248380261480154",
@@ -2049,7 +2285,7 @@
      "meta_date": "23 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480154.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480154.json"
     },
     {
      "doi": "10.1177/15248380261487145",
@@ -2068,7 +2304,7 @@
      "meta_date": "23 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261487145.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261487145.json"
     },
     {
      "doi": "10.1177/15248380261480166",
@@ -2087,7 +2323,7 @@
      "meta_date": "23 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480166.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480166.json"
     },
     {
      "doi": "10.1177/15248380261480159",
@@ -2108,7 +2344,7 @@
      "meta_date": "23 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480159.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480159.json"
     },
     {
      "doi": "10.1177/15248380261476086",
@@ -2133,7 +2369,7 @@
      "meta_date": "22 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476086.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476086.json"
     },
     {
      "doi": "10.1177/15248380261476071",
@@ -2155,7 +2391,7 @@
      "meta_date": "21 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476071.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476071.json"
     },
     {
      "doi": "10.1177/15248380261476083",
@@ -2174,7 +2410,7 @@
      "meta_date": "21 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476083.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476083.json"
     },
     {
      "doi": "10.1177/15248380261476088",
@@ -2196,7 +2432,7 @@
      "meta_date": "18 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476088.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476088.json"
     },
     {
      "doi": "10.1177/15248380261480155",
@@ -2217,7 +2453,7 @@
      "meta_date": "18 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480155.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480155.json"
     },
     {
      "doi": "10.1177/15248380261476604",
@@ -2239,7 +2475,7 @@
      "meta_date": "17 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476604.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476604.json"
     },
     {
      "doi": "10.1177/15248380261476601",
@@ -2260,7 +2496,7 @@
      "meta_date": "17 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476601.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476601.json"
     },
     {
      "doi": "10.1177/15248380261476689",
@@ -2282,7 +2518,7 @@
      "meta_date": "17 September 2026",
      "open_access": true,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476689.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476689.json"
     },
     {
      "doi": "10.1177/15248380261480163",
@@ -2301,57 +2537,7 @@
      "meta_date": "15 September 2026",
      "open_access": false,
      "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480163.json"
-    },
-    {
-     "doi": "10.1177/15248380261476691",
-     "url": "https://doi.org/10.1177/15248380261476691",
-     "title": "Self-Compassion and Sexual Assault Victimization: A Systematic Review",
-     "journal": "Trauma, Violence, & Abuse",
-     "issn": "1524-8380",
-     "authors": [
-      "Adams-Clark",
-      "Lee",
-      "Naughton",
-      "Purcell",
-      "Sharma",
-      "Candullo",
-      "Sawyer",
-      "Bhuptani",
-      "Orchowski"
-     ],
-     "author_label": "Adams-Clark et al.",
-     "published": "2026-09-11",
-     "created": "2026-09-12",
-     "online_date": "2026-09-11",
-     "date_label": "11 Sep 2026",
-     "meta_date": "11 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476691.json"
-    },
-    {
-     "doi": "10.1177/15248380261476612",
-     "url": "https://doi.org/10.1177/15248380261476612",
-     "title": "The Prevalence of Child Abuse in Chinese Children and Adolescents: A Systematic Review and Meta-Analysis",
-     "journal": "Trauma, Violence, & Abuse",
-     "issn": "1524-8380",
-     "authors": [
-      "Zhang",
-      "Han",
-      "Xia",
-      "Huang",
-      "Feng"
-     ],
-     "author_label": "Zhang et al.",
-     "published": "2026-09-11",
-     "created": "2026-09-12",
-     "online_date": "2026-09-11",
-     "date_label": "11 Sep 2026",
-     "meta_date": "11 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://JLJC79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476612.json"
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480163.json"
     }
    ],
    "dropped": []

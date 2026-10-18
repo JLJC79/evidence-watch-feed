@@ -1,0 +1,23 @@
+{
+ "doi": "10.1111/1745-9133.70045",
+ "url": "https://doi.org/10.1111/1745-9133.70045",
+ "title": "Do targeted, place‐based educational campaigns influence citizen engagement and violent crime? A quasi‐experiment of the alert conscience technique of situational crime prevention",
+ "journal": "Criminology & Public Policy",
+ "issn": "1745-9133",
+ "authors": [
+  "Piza",
+  "Harkins",
+  "Hazen"
+ ],
+ "author_label": "Piza et al.",
+ "published": "2026-10-12",
+ "created": "2026-10-12",
+ "online_date": "2026-10-12",
+ "date_label": "12 Oct 2026",
+ "meta_date": "12 October 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70045.json",
+ "abstract": "Research Summary Between 2021 and 2024, the Mecklenburg County (NC) Department of Public Health's Office of Violence Prevention launched two targeted media campaigns in response to high rates of community violence. The first used geofencing: virtual geographic boundaries that deliver targeted advertisements to mobile devices. The second used clean graffiti, in which anti‐violence messages were power‐washed onto sidewalks. This study applies a staggered difference‐in‐differences design to estimate the campaigns’ effect on 311 calls (as a proxy for citizen engagement) and violent crime incidents, conditioned on observed covariates that may introduce confounding effects. Overall campaign exposure was associated with statistically significant increases in overall 311 calls and request‐related 311 calls. Neither campaign, when assessed separately, produced significant effects. No models showed overall impacts on violent crime. Policy Implications Despite their popularity, crime prevention media campaigns have been less frequently evaluated than other situational crime prevention (SCP) techniques. As a result, the knowledge base on the alert conscience technique is much less developed than that on techniques such as target hardening, formal surveillance, natural surveillance, and place management. In the current study, while 311 calls significantly increased, the media campaigns did not reduce violent crime. This suggests that the alert conscience technique of SCP may be less effective for crime reduction than approaches that directly modify the physical environment to limit crime opportunities. Media campaigns may therefore need to be paired with other crime prevention techniques if they are to affect crime as well as community engagement.",
+ "publisher_url": "https://doi.org/10.1111/1745-9133.70045"
+}

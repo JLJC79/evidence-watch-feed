@@ -1,0 +1,21 @@
+{
+ "doi": "10.1111/1745-9133.70046",
+ "url": "https://doi.org/10.1111/1745-9133.70046",
+ "title": "A picture worth a thousand words: The effect of murals on crime",
+ "journal": "Criminology & Public Policy",
+ "issn": "1745-9133",
+ "authors": [
+  "Moritz"
+ ],
+ "author_label": "Moritz",
+ "published": "2026-10-13",
+ "created": "2026-10-13",
+ "online_date": "2026-10-13",
+ "date_label": "13 Oct 2026",
+ "meta_date": "13 October 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70046.json",
+ "abstract": "Research Summary Drawing on the tenets of situational crime prevention, several place‐based interventions are both effective in reducing crime and relatively inexpensive. The installation of large exterior murals also fits within the situational crime prevention framework. In Philadelphia, the staggered implementation of mural arts lends itself to a quasi‐experimental design, using spatial and temporal variation to test how murals affect crime. Employing this method, I find significant crime decreases on street segments after mural painting begins, concentrated in nighttime property crime, which falls by approximately 23% (about 0.06 fewer incidents per street segment per quarter) in a heterogeneity‐robust staggered difference‐in‐differences analysis. This estimate is similar under a traditional two‐way fixed effects approach and when the comparison group is matched to mural streets on prior crime. I also detect suggestive yet sizeable crime displacement to adjoining blocks, along with suggestive variation in significance by mural location. Policy Implications The findings support funding arts programs to address local crime complaints alongside the current goals of public art investment. The concentration of effects in a single crime category and the displacement of crime to adjoining blocks suggest the need for a more wholesale blight remediation strategy that extends beyond the single use of mural arts. Future research should examine which features of larger areas drive crime reduction and displacement, test whether effects vary by artwork characteristics, and use randomized placement to rule out other concurrent neighborhood interventions.",
+ "publisher_url": "https://doi.org/10.1111/1745-9133.70046"
+}
