@@ -1,0 +1,23 @@
+{
+ "doi": "10.1111/1745-9133.70043",
+ "url": "https://doi.org/10.1111/1745-9133.70043",
+ "title": "Do the accessibility and guardianship characteristics of places matter? Exploring population presence and crime relationships using urban digital traces",
+ "journal": "Criminology & Public Policy",
+ "issn": "1745-9133",
+ "authors": [
+  "Kim",
+  "Bowers",
+  "Johnson"
+ ],
+ "author_label": "Kim et al.",
+ "published": "2026-10-21",
+ "created": "2026-10-21",
+ "online_date": "2026-10-21",
+ "date_label": "21 Oct 2026",
+ "meta_date": "21 October 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70043.json",
+ "abstract": "Research Summary Ron Clarke argued that crime prevention must be tailored to the specific situations in which crime occurs. Central to this principle are the characteristics of places: the access, responsibility, and guardianship features of a place shape who is present, for what purpose, and under whose supervision and, therefore, whether population presence generates crime opportunity or provides guardianship. Drawing on this principle, this study introduces a novel classification of the places where crime occurs using their accessibility and guardianship structures, ranging from fully private to fully public access, and asks whether the population–crime association is conditional on these structures. Two population measures are compared: census population and ambient population measured from geotagged social media. Four crime types (property, violence, drug, and public order) are examined across two time periods, normal conditions and COVID‐19 mobility restrictions. Across places, increased ambient population is positively associated with crime at publicly accessible locations, consistent with an opportunity mechanism, whereas census population shows the opposite pattern, consistent with guardianship. Under mobility restrictions, the ambient association weakened, particularly at commercial premises, whereas the census association at residential places remained unchanged. For violence, the temporal association reversed from positive to negative: under restrictions, violence was lower in busier hours. Policy Implications Place‐based crime prevention should be differentiated by place‐type characteristics because accessibility levels, guardianship features, and the population differ across our place types. Public, semipublic, semiprivate, and private settings all have different pulses in terms of how their characteristics drive population types and fluctuations at different times and thus affect the rhythm of crime within them. Resource allocation based on temporal variation in ambient population, rather than fixed residential patterns alone, should therefore better reflect where crime opportunities concentrate.",
+ "publisher_url": "https://doi.org/10.1111/1745-9133.70043"
+}

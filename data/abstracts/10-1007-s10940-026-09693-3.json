@@ -1,0 +1,23 @@
+{
+ "doi": "10.1007/s10940-026-09693-3",
+ "url": "https://doi.org/10.1007/s10940-026-09693-3",
+ "title": "The Game is the Game: Dynamic Network Analysis and Shifting Roles in Criminal Networks",
+ "journal": "Journal of Quantitative Criminology",
+ "issn": "0748-4518",
+ "authors": [
+  "Catlin",
+  "Berlusconi",
+  "Lloyd"
+ ],
+ "author_label": "Catlin et al.",
+ "published": "2026-10-22",
+ "created": "2026-10-22",
+ "online_date": "2026-10-22",
+ "date_label": "22 Oct 2026",
+ "meta_date": "22 October 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09693-3.json",
+ "abstract": "Objectives This paper explores whether and to what extent individuals’ strategic positioning within a criminal network changes over time, and how these changes reflect differential involvement in illicit activities. It incorporates time as a crucial variable to identify key players in criminal networks and assesses the accuracy of the results against the uncertainty around network data collected from criminal justice records. Methods Network data are from a judicial document for a two-year investigation targeting a drug trafficking and distribution network. We use Katz centrality in its dynamic version to explore changes in relationships and relative importance of network actors. We then use a novel method of introducing new edges to the network using Bernoulli random trials to simulate missing data and assess the extent to which node rankings based on Katz centrality change or remain the same when introducing some level of uncertainty to our observed network. Results We identify actors who consistently held a central role over the course of the two-year investigation and differentiate them from actors who provided key contributions to the group’s activities, but only for a limited period. We show that compared to centrality measures commonly used in criminal network analysis, dynamic Katz centrality is helpful to differentiate individual contributions even among central nodes and explore individual trajectories over time, even when data are incomplete. Conclusions This paper demonstrates the value of key player identification using temporal network data and offers an additional analytical tool to both organised crime scholars trying to capture the complex nature of criminal collaboration and law enforcement agencies aiming at identifying appropriate targets and disrupting criminal groups.",
+ "publisher_url": "https://doi.org/10.1007/s10940-026-09693-3"
+}

@@ -1,0 +1,24 @@
+{
+ "doi": "10.1177/15248380261489613",
+ "url": "https://doi.org/10.1177/15248380261489613",
+ "title": "A Quantitative Meta-Analysis of Neural Response to Cognitive Challenge in Children and Adults With a History of Childhood Maltreatment",
+ "journal": "Trauma, Violence, & Abuse",
+ "issn": "1524-8380",
+ "authors": [
+  "Perkins",
+  "Angstadt",
+  "Leach",
+  "Jonson-Reid"
+ ],
+ "author_label": "Perkins et al.",
+ "published": "2026-10-22",
+ "created": "2026-10-23",
+ "online_date": "2026-10-22",
+ "date_label": "22 Oct 2026",
+ "meta_date": "22 October 2026",
+ "open_access": false,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261489613.json",
+ "abstract": "Cognitive processing-related outcomes are well-documented following childhood maltreatment (CM); however, the brain basis of post-CM cognition is understudied. The goal of the present study is to identify neural networks associated with a history of CM by conducting a quantitative meta-analysis of existing studies of post-CM cognitive processing. A PRISMA review was conducted of studies investigating cognitive processing in children and adults with histories of CM using functional magnetic resonance imaging (fMRI) from the advent of fMRI to November 2025. The initial Boolean search yielded 4,638 papers (PubMed = 2,805, Scopus = 1,714, PsycInfo = 110, gray literature = 9). Sixty-five full reports were retrieved, and a further 42 were excluded after screening. Twenty-three reports representing a total of 22 studies were included in the analysis. Contrast coordinates were examined for co-activations across studies during contrasts comparing CM to control using an activation likelihood estimation (ALE) approach with Neurosynth Compose, a meta-analysis software. Twenty-three studies that matched the criteria included thirty-two contrasts with brain coordinates where CM exhibited higher functional activity than the control. Examination of Z-maps found regions coactivated across studies consistent with increased cognitive control activation in youth and adults with CM histories, suggesting stress-adaptive acceleration. Understanding potential neural consequences of CM is necessary for intervention development. These exploratory findings suggest that small cohort studies limit our current understanding of cognitive processing development following CM. The failure to detect coactivation when accounting for multiple comparisons indicates a significant need for the expansion of research into neural models of post-CM cognition.",
+ "publisher_url": "https://doi.org/10.1177/15248380261489613"
+}

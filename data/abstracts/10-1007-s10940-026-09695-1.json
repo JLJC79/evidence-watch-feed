@@ -1,0 +1,22 @@
+{
+ "doi": "10.1007/s10940-026-09695-1",
+ "url": "https://doi.org/10.1007/s10940-026-09695-1",
+ "title": "Violence, Inflation, and Income: Homicides in Sweden, 1861-2020",
+ "journal": "Journal of Quantitative Criminology",
+ "issn": "0748-4518",
+ "authors": [
+  "Box",
+  "Lin"
+ ],
+ "author_label": "Box and Lin",
+ "published": "2026-10-23",
+ "created": "2026-10-23",
+ "online_date": "2026-10-23",
+ "date_label": "23 Oct 2026",
+ "meta_date": "23 October 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09695-1.json",
+ "abstract": "Objectives We examine the long-run relationship between homicide and macroeconomic conditions in Sweden during the period 1861–2020. Drawing on the literature on Crime and the Economy (Rosenfeld 2024; Rosenfeld and Messner 2013), we assess whether inflation and aggregate income growth are systematically associated with homicide and evaluate whether these relationships exhibit asymmetric or nonlinear patterns. Methods The study uses annual historical time-series data on Swedish homicide rates, GDP per capita, consumer prices (CPI), and alcohol consumption. Long-run relationships are estimated using cointegration techniques (FMOLS, CCR, and DOLS), complemented by ARDL models to examine equilibrium adjustment dynamics. Nonlinear ARDL (NARDL) models are employed to assess potential asymmetries, and additional specifications test whether the association between inflation and homicide varies across inflation levels. Results The analyses reveal a stable long-run equilibrium relationship between homicide, macroeconomic conditions, and alcohol consumption. Controlling for alcohol consumption, inflation displays a positive long-run association with homicide, suggesting that inflationary price developments are associated with higher homicide rates. Aggregate income exhibits a consistent negative association with homicide, indicating that higher levels of economic development are linked to lower levels of lethal violence. We find no evidence for asymmetric effects of inflation or aggregate income. Furthermore, the results provide no evidence that the inflation-homicide relationship varies systematically across inflation levels. The estimated relationships are robust across alternative specifications. Conclusions Macroeconomic conditions are systematically associated with long-term variation in homicide trends in Sweden. Inflation is associated with higher homicide rates, whereas higher aggregate income is associated with lower homicide rates. Although the analyses identify long-run associations rather than causal effects, our findings suggest that macroeconomic conditions and economic change should be considered alongside social, cultural, and institutional factors in explanations of long-term violence trends. These findings contribute to the growing literature on Crime and the Economy by demonstrating that both inflationary pressures and long-run economic development are systematically associated with homicide trends over an extended historical period.",
+ "publisher_url": "https://doi.org/10.1007/s10940-026-09695-1"
+}
