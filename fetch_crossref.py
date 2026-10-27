@@ -6,10 +6,16 @@ Pulls recent journal-article records for the 14 tracked journals from the Crossr
 issue-building run makes one fetch of data/index.json instead of twenty-odd calls to
 api.crossref.org through a rate-limited proxy.
 
+Since October 2026 it also pulls the Australian Institute of Criminology's publications by
+DOI prefix (10.52922): the AIC's own listing pages are stale or robots-blocked, but every AIC
+publication is registered with Crossref, with its abstract, usually on the day of release.
+These go under a separate 'reports' key so the 'journals' array keeps its fixed 14 entries.
+
 Outputs (under --out, default ./data):
-  index.json            one entry per journal, in the fixed ISSN order, with compact item records
+  index.json            'journals' (one entry per journal, fixed ISSN order) and 'reports'
+                        (one entry per report publisher), with compact item records
   index.md              the same listing as readable markdown (for checking by eye)
-  abstracts/<slug>.json one file per article carrying the full abstract (JATS tags stripped)
+  abstracts/<slug>.json one file per item carrying the full abstract (JATS tags stripped)
 
 Standard library only; no pip installs. Python 3.9+.
 
@@ -49,6 +55,28 @@ JOURNALS = [
     ("Trauma, Violence, & Abuse", "1524-8380", "published"),
     ("Campbell Systematic Reviews", "1891-1803", "published"),
 ]
+
+# Report publishers pulled by Crossref DOI prefix rather than ISSN. The AIC registers a DOI for
+# every publication (Trends & issues, Research Reports, Statistical Bulletins, CRG reports,
+# Special reports ...); the Crossref 'created' date is the registration date, which has tracked
+# the AIC's own publication date within a day in the items checked, so it is used as the item
+# date and labelled as such.
+REPORT_SOURCES = [
+    ("Australian Institute of Criminology", "10.52922"),
+]
+
+# Series name from the letters at the start of an AIC DOI suffix (10.52922/ti78458 -> 'ti').
+AIC_SERIES = {
+    "ti": "Trends & issues in crime and criminal justice",
+    "rr": "Research Report",
+    "sb": "Statistical Bulletin",
+    "sr": "Statistical Report",
+    "crf": "CRG report",
+    "sp": "Special report",
+    "rip": "Research in practice",
+    "tbp": "Technical and background paper",
+    "rpp": "Research and public policy series",
+}
 
 # Titles starting with these are dropped (and listed under 'dropped' so nothing vanishes silently).
 DROP_PREFIXES = ("correction", "erratum", "corrigendum", "retraction", "editorial", "book review")
@@ -190,9 +218,14 @@ def long_date(iso: str | None) -> str | None:
     return f"{d.day} {d.strftime('%B %Y')}"
 
 
+def clean_title(rec: dict) -> str:
+    """First title, whitespace-normalised, HTML entities decoded (AIC deposits '&amp;')."""
+    return html.unescape(" ".join((rec.get("title") or [""])[0].split()))
+
+
 def build_item(rec: dict, journal: str, issn: str, sort_key: str, base_url: str, out_dir: Path) -> dict:
     doi = rec.get("DOI", "")
-    title = " ".join((rec.get("title") or [""])[0].split())
+    title = clean_title(rec)
     names = author_names(rec.get("author"))
     published = date_parts(rec.get("published-online")) or date_parts(rec.get("published"))
     created = date_time(rec.get("created"))
@@ -223,6 +256,49 @@ def build_item(rec: dict, journal: str, issn: str, sort_key: str, base_url: str,
     return item
 
 
+def aic_series(doi: str) -> str | None:
+    """'10.52922/ti78458' -> 'Trends & issues in crime and criminal justice' (None if unrecognised)."""
+    m = re.match(r"^10\.52922/([a-z]+)\d", doi.lower())
+    return AIC_SERIES.get(m.group(1)) if m else None
+
+
+def build_report_item(rec: dict, publisher: str, prefix: str, base_url: str, out_dir: Path) -> dict:
+    """Like build_item, for a report publisher. The item date is the Crossref registration date."""
+    doi = rec.get("DOI", "")
+    title = clean_title(rec)
+    names = author_names(rec.get("author"))
+    created = date_time(rec.get("created"))
+    published = date_parts(rec.get("published-online")) or date_parts(rec.get("published"))
+    series = aic_series(doi) if prefix == "10.52922" else None
+    container = " ".join((rec.get("container-title") or [""])[0].split()) or None
+    abstract = clean_abstract(rec.get("abstract"))
+    slug = slug_for(doi)
+    abstract_rel = f"abstracts/{slug}.json"
+    item = {
+        "doi": doi,
+        "url": f"https://doi.org/{doi}",
+        "title": title,
+        "publisher": publisher,
+        "series": series or container,
+        "crossref_type": rec.get("type"),
+        "authors": names,
+        "author_label": author_label(names),
+        "published": published,
+        "created": created,
+        "online_date": created,            # registration date: the reliable, day-level date for AIC
+        "date_label": display_date(created),
+        "meta_date": long_date(created),
+        "date_basis": "Crossref DOI registration date",
+        "open_access": is_open_access(rec.get("license")),
+        "has_abstract": abstract is not None,
+        "abstract_url": f"{base_url}/{abstract_rel}" if base_url else abstract_rel,
+    }
+    (out_dir / "abstracts").mkdir(parents=True, exist_ok=True)
+    with open(out_dir / abstract_rel, "w", encoding="utf-8") as f:
+        json.dump({**item, "abstract": abstract, "publisher_url": rec.get("URL")}, f, ensure_ascii=False, indent=1)
+    return item
+
+
 def fetch_journal(name: str, issn: str, sort_key: str, since: str, mailto: str, rows: int) -> dict:
     date_filter = "from-created-date" if sort_key == "created" else "from-pub-date"
     params = {
@@ -235,6 +311,23 @@ def fetch_journal(name: str, issn: str, sort_key: str, since: str, mailto: str, 
     }
     url = API + "?" + urllib.parse.urlencode(params, safe=":,-")
     log(f"{name} ({issn}) sort={sort_key}")
+    data = get_json(url, mailto)
+    msg = data.get("message", {})
+    return {"items": msg.get("items", []), "total": msg.get("total-results", 0), "query": url}
+
+
+def fetch_prefix(name: str, prefix: str, since: str, mailto: str, rows: int) -> dict:
+    """All works registered under a DOI prefix since `since` (no type filter: AIC uses several)."""
+    params = {
+        "filter": f"prefix:{prefix},from-created-date:{since}",
+        "sort": "created",
+        "order": "desc",
+        "rows": str(rows),
+        "select": SELECT,
+        "mailto": mailto,
+    }
+    url = API + "?" + urllib.parse.urlencode(params, safe=":,-")
+    log(f"{name} (prefix {prefix}) sort=created")
     data = get_json(url, mailto)
     msg = data.get("message", {})
     return {"items": msg.get("items", []), "total": msg.get("total-results", 0), "query": url}
@@ -254,6 +347,18 @@ def write_markdown(index: dict, path: Path) -> None:
         for d in j["dropped"]:
             lines.append(f"- (dropped: {d['reason']}) {d['title']} · https://doi.org/{d['doi']}")
         lines.append("")
+    if index.get("reports"):
+        lines.append("# Reports (by DOI prefix; dates are Crossref registration dates)")
+        lines.append("")
+        for r in index["reports"]:
+            status = f"{len(r['items'])} item(s)" if r["ok"] else f"FAILED: {r['error']}"
+            lines.append(f"## {r['name']} — {status}")
+            for it in r["items"]:
+                oa = " · open access" if it["open_access"] else ""
+                ab = "" if it["has_abstract"] else " · no abstract"
+                series = f" · {it['series']}" if it.get("series") else ""
+                lines.append(f"- {it['title']} — {it['author_label']}{series} · {it['date_label']}{oa}{ab} · https://doi.org/{it['doi']}")
+            lines.append("")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -290,7 +395,7 @@ def main() -> int:
             entry["ok"] = True
             entry["total_results"] = res["total"]
             for rec in res["items"]:
-                title = " ".join((rec.get("title") or [""])[0].split())
+                title = clean_title(rec)
                 reason = drop_reason(title, issn)
                 if reason:
                     entry["dropped"].append({"doi": rec.get("DOI", ""), "title": title, "reason": reason})
@@ -303,6 +408,24 @@ def main() -> int:
         journals_out.append(entry)
         time.sleep(args.pause)
 
+    reports_out = []
+    report_failures = 0
+    for name, prefix in REPORT_SOURCES:
+        entry = {"name": name, "prefix": prefix, "sort": "created", "ok": False, "error": None,
+                 "total_results": 0, "items": []}
+        try:
+            res = fetch_prefix(name, prefix, since, args.mailto, args.rows)
+            entry["ok"] = True
+            entry["total_results"] = res["total"]
+            for rec in res["items"]:
+                entry["items"].append(build_report_item(rec, name, prefix, base_url, out_dir))
+        except Exception as e:
+            report_failures += 1
+            entry["error"] = f"{type(e).__name__}: {e}"
+            log(f"  FAILED: {entry['error']}")
+        reports_out.append(entry)
+        time.sleep(args.pause)
+
     index = {
         "generated_at_utc": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "generated_at_brisbane": brisbane.strftime("%Y-%m-%d %H:%M AEST"),
@@ -311,19 +434,25 @@ def main() -> int:
         "journal_count": len(journals_out),
         "journals_failed": failures,
         "article_count": sum(len(j["items"]) for j in journals_out),
+        "report_source_count": len(reports_out),
+        "report_sources_failed": report_failures,
+        "report_count": sum(len(r["items"]) for r in reports_out),
         "notes": [
             "Order of 'journals' is the fixed order the issue must use.",
             "online_date is 'created' for Journal of Criminal Justice (items are in press) and the online publication date otherwise.",
             "Corrections, errata, corrigenda, retractions, editorials, book reviews and Campbell protocols are listed under 'dropped', not 'items'.",
             "open_access is true only when a Creative Commons licence URL is present; text-and-data-mining licences do not count.",
             "Each item's abstract_url holds the full abstract (JATS tags stripped) or null when the publisher deposits none (Elsevier and Taylor & Francis usually deposit none).",
+            "'reports' holds publishers pulled by DOI prefix (currently the Australian Institute of Criminology, 10.52922). Their online_date is the Crossref DOI registration date, which for the AIC has matched its publication date within a day; the issue should say 'DOI registered <date>' or verify the date on the item's own aic.gov.au page.",
         ],
         "journals": journals_out,
+        "reports": reports_out,
     }
     with open(out_dir / "index.json", "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=1)
     write_markdown(index, out_dir / "index.md")
-    log(f"wrote {out_dir}/index.json: {index['article_count']} articles, {failures} journal(s) failed")
+    log(f"wrote {out_dir}/index.json: {index['article_count']} articles, {failures} journal(s) failed; "
+        f"{index['report_count']} report(s), {report_failures} report source(s) failed")
     # Exit non-zero only if everything failed, so a partial pull still gets committed.
     return 1 if failures == len(JOURNALS) else 0
 
