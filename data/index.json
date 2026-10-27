@@ -1,17 +1,21 @@
 {
- "generated_at_utc": "2026-10-25T10:13:57Z",
- "generated_at_brisbane": "2026-10-25 20:13 AEST",
- "window_from": "2026-09-20",
+ "generated_at_utc": "2026-10-27T07:42:24Z",
+ "generated_at_brisbane": "2026-10-27 17:42 AEST",
+ "window_from": "2026-09-22",
  "window_days": 35,
  "journal_count": 14,
  "journals_failed": 0,
- "article_count": 119,
+ "article_count": 116,
+ "report_source_count": 1,
+ "report_sources_failed": 0,
+ "report_count": 5,
  "notes": [
   "Order of 'journals' is the fixed order the issue must use.",
   "online_date is 'created' for Journal of Criminal Justice (items are in press) and the online publication date otherwise.",
   "Corrections, errata, corrigenda, retractions, editorials, book reviews and Campbell protocols are listed under 'dropped', not 'items'.",
   "open_access is true only when a Creative Commons licence URL is present; text-and-data-mining licences do not count.",
-  "Each item's abstract_url holds the full abstract (JATS tags stripped) or null when the publisher deposits none (Elsevier and Taylor & Francis usually deposit none)."
+  "Each item's abstract_url holds the full abstract (JATS tags stripped) or null when the publisher deposits none (Elsevier and Taylor & Francis usually deposit none).",
+  "'reports' holds publishers pulled by DOI prefix (currently the Australian Institute of Criminology, 10.52922). Their online_date is the Crossref DOI registration date, which for the AIC has matched its publication date within a day; the issue should say 'DOI registered <date>' or verify the date on the item's own aic.gov.au page."
  ],
  "journals": [
   {
@@ -290,8 +294,27 @@
    "sort": "created",
    "ok": true,
    "error": null,
-   "total_results": 18,
+   "total_results": 17,
    "items": [
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102762",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102762",
+     "title": "An enduring interruption: How “Zero Tolerance” reshaped prosecutorial discretion at the U.S.–Mexico Border",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Blanton"
+     ],
+     "author_label": "Blanton",
+     "published": "2026-11",
+     "created": "2026-10-26",
+     "online_date": "2026-10-26",
+     "date_label": "26 Oct 2026 (in press)",
+     "meta_date": "26 October 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102762.json"
+    },
     {
      "doi": "10.1016/j.jcrimjus.2026.102764",
      "url": "https://doi.org/10.1016/j.jcrimjus.2026.102764",
@@ -604,49 +627,6 @@
      "open_access": true,
      "has_abstract": false,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102747.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102744",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102744",
-     "title": "Experienced practitioners' perspectives on when, why, and how to confront during investigative interviews",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Brimbal",
-      "Meissner",
-      "Kleinman",
-      "Sotebeer",
-      "Virk"
-     ],
-     "author_label": "Brimbal et al.",
-     "published": "2026-11",
-     "created": "2026-09-21",
-     "online_date": "2026-09-21",
-     "date_label": "21 Sep 2026 (in press)",
-     "meta_date": "21 September 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102744.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102743",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102743",
-     "title": "‘Intersecting paths’: Overlapping characteristics of ‘wanted’ individuals and missing persons populations in the UK",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Ford",
-      "Shalev"
-     ],
-     "author_label": "Ford and Shalev",
-     "published": "2026-11",
-     "created": "2026-09-21",
-     "online_date": "2026-09-21",
-     "date_label": "21 Sep 2026 (in press)",
-     "meta_date": "21 September 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102743.json"
     }
    ],
    "dropped": [
@@ -1180,7 +1160,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 10,
+   "total_results": 8,
    "items": [
     {
      "doi": "10.1177/00111287261498856",
@@ -1352,47 +1332,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488781.json"
-    },
-    {
-     "doi": "10.1177/00111287261490565",
-     "url": "https://doi.org/10.1177/00111287261490565",
-     "title": "The Rainbow Tax? Sexual Orientation Disparities in Identity Theft and Recovery Burdens",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Alenzi"
-     ],
-     "author_label": "Alenzi",
-     "published": "2026-09-21",
-     "created": "2026-09-21",
-     "online_date": "2026-09-21",
-     "date_label": "21 Sep 2026",
-     "meta_date": "21 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261490565.json"
-    },
-    {
-     "doi": "10.1177/00111287261488733",
-     "url": "https://doi.org/10.1177/00111287261488733",
-     "title": "Police Documentation of Complainant Truthfulness Concerns in Sexual Assault: A Mixed Methods Examination of Case Files",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Meeker",
-      "Acquaviva",
-      "Fleming",
-      "Kelley"
-     ],
-     "author_label": "Meeker et al.",
-     "published": "2026-09-20",
-     "created": "2026-09-21",
-     "online_date": "2026-09-20",
-     "date_label": "20 Sep 2026",
-     "meta_date": "20 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488733.json"
     }
    ],
    "dropped": []
@@ -1403,7 +1342,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 8,
+   "total_results": 7,
    "items": [
     {
      "doi": "10.1093/bjc/azag083",
@@ -1543,25 +1482,6 @@
      "open_access": true,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag082.json"
-    },
-    {
-     "doi": "10.1093/bjc/azag070",
-     "url": "https://doi.org/10.1093/bjc/azag070",
-     "title": "The gendered organization of exploitation: sex trafficking and masculinity",
-     "journal": "British Journal of Criminology",
-     "issn": "0007-0955",
-     "authors": [
-      "Bogdan"
-     ],
-     "author_label": "Bogdan",
-     "published": "2026-09-20",
-     "created": "2026-07-27",
-     "online_date": "2026-09-20",
-     "date_label": "20 Sep 2026",
-     "meta_date": "20 September 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag070.json"
     }
    ],
    "dropped": []
@@ -1675,6 +1595,27 @@
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491834.json"
     },
     {
+     "doi": "10.1177/00938548261492608",
+     "url": "https://doi.org/10.1177/00938548261492608",
+     "title": "Beyond Prison Officer Types: A Latent Profile Analysis",
+     "journal": "Criminal Justice and Behavior",
+     "issn": "0093-8548",
+     "authors": [
+      "Meade",
+      "Butler",
+      "Percy"
+     ],
+     "author_label": "Meade et al.",
+     "published": "2026-10-17",
+     "created": "2026-10-17",
+     "online_date": "2026-10-17",
+     "date_label": "17 Oct 2026",
+     "meta_date": "17 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261492608.json"
+    },
+    {
      "doi": "10.1177/00938548261491325",
      "url": "https://doi.org/10.1177/00938548261491325",
      "title": "Criminal Offending Among Persons with and without a Mental Illness: Does Employment, Housing, and Relationship Status Matter?",
@@ -1695,27 +1636,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491325.json"
-    },
-    {
-     "doi": "10.1177/00938548261492608",
-     "url": "https://doi.org/10.1177/00938548261492608",
-     "title": "Beyond Prison Officer Types: A Latent Profile Analysis",
-     "journal": "Criminal Justice and Behavior",
-     "issn": "0093-8548",
-     "authors": [
-      "Meade",
-      "Butler",
-      "Percy"
-     ],
-     "author_label": "Meade et al.",
-     "published": "2026-10-17",
-     "created": "2026-10-17",
-     "online_date": "2026-10-17",
-     "date_label": "17 Oct 2026",
-     "meta_date": "17 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261492608.json"
     },
     {
      "doi": "10.1177/00938548261491338",
@@ -2059,8 +1979,78 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 28,
+   "total_results": 29,
    "items": [
+    {
+     "doi": "10.1177/15248380261476082",
+     "url": "https://doi.org/10.1177/15248380261476082",
+     "title": "Increasing Language Access for Intimate Partner Violence Support Services: A Scoping Review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Richey",
+      "DiMascolo",
+      "Bender",
+      "Bhattacharya",
+      "Gomez",
+      "Kernic",
+      "Ellyson",
+      "Adhia"
+     ],
+     "author_label": "Richey et al.",
+     "published": "2026-10-26",
+     "created": "2026-10-26",
+     "online_date": "2026-10-26",
+     "date_label": "26 Oct 2026",
+     "meta_date": "26 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476082.json"
+    },
+    {
+     "doi": "10.1177/15248380261483629",
+     "url": "https://doi.org/10.1177/15248380261483629",
+     "title": "The Relationship Between Early Exposure to Pornography and Later Pornography Consumption: A Systematic Literature Review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Arikan",
+      "Kloess",
+      "Gladden"
+     ],
+     "author_label": "Arikan et al.",
+     "published": "2026-10-26",
+     "created": "2026-10-27",
+     "online_date": "2026-10-26",
+     "date_label": "26 Oct 2026",
+     "meta_date": "26 October 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261483629.json"
+    },
+    {
+     "doi": "10.1177/15248380261494965",
+     "url": "https://doi.org/10.1177/15248380261494965",
+     "title": "Well-Being Among Latine Survivors of Intimate Partner Violence: A Systematic Review of Protective Factors and Resilience Mechanisms",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Cardenas",
+      "Sabina",
+      "McGinnis",
+      "Boldin",
+      "Betz"
+     ],
+     "author_label": "Cardenas et al.",
+     "published": "2026-10-26",
+     "created": "2026-10-27",
+     "online_date": "2026-10-26",
+     "date_label": "26 Oct 2026",
+     "meta_date": "26 October 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261494965.json"
+    },
     {
      "doi": "10.1177/15248380261489613",
      "url": "https://doi.org/10.1177/15248380261489613",
@@ -2653,47 +2643,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476086.json"
-    },
-    {
-     "doi": "10.1177/15248380261476071",
-     "url": "https://doi.org/10.1177/15248380261476071",
-     "title": "Exploring Bystander Interventions and Safety in Community Settings to Address Gender-Based Violence in Lower- and Middle-Income Countries: A Narrative Review",
-     "journal": "Trauma, Violence, & Abuse",
-     "issn": "1524-8380",
-     "authors": [
-      "Lee",
-      "Golwalkar",
-      "Talboys",
-      "Singh"
-     ],
-     "author_label": "Lee et al.",
-     "published": "2026-09-21",
-     "created": "2026-09-22",
-     "online_date": "2026-09-21",
-     "date_label": "21 Sep 2026",
-     "meta_date": "21 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476071.json"
-    },
-    {
-     "doi": "10.1177/15248380261476083",
-     "url": "https://doi.org/10.1177/15248380261476083",
-     "title": "Female Aggression and Mental Health: A Systematic Review",
-     "journal": "Trauma, Violence, & Abuse",
-     "issn": "1524-8380",
-     "authors": [
-      "Conrad"
-     ],
-     "author_label": "Conrad",
-     "published": "2026-09-21",
-     "created": "2026-09-22",
-     "online_date": "2026-09-21",
-     "date_label": "21 Sep 2026",
-     "meta_date": "21 September 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476083.json"
     }
    ],
    "dropped": []
@@ -2731,6 +2680,133 @@
     }
    ],
    "dropped": []
+  }
+ ],
+ "reports": [
+  {
+   "name": "Australian Institute of Criminology",
+   "prefix": "10.52922",
+   "sort": "created",
+   "ok": true,
+   "error": null,
+   "total_results": 5,
+   "items": [
+    {
+     "doi": "10.52922/rr78526",
+     "url": "https://doi.org/10.52922/rr78526",
+     "title": "Elder abuse perpetration",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Research Report",
+     "crossref_type": "monograph",
+     "authors": [
+      "Dowling",
+      "Gannoni",
+      "Lawler"
+     ],
+     "author_label": "Dowling et al.",
+     "published": "2026-10-22",
+     "created": "2026-10-22",
+     "online_date": "2026-10-22",
+     "date_label": "22 Oct 2026",
+     "meta_date": "22 October 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-rr78526.json"
+    },
+    {
+     "doi": "10.52922/sb78496",
+     "url": "https://doi.org/10.52922/sb78496",
+     "title": "Young people's planned adherence to Australia's social media age restrictions",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Statistical Bulletin",
+     "crossref_type": "monograph",
+     "authors": [
+      "McVey",
+      "Napier",
+      "Wrightson-Hester"
+     ],
+     "author_label": "McVey et al.",
+     "published": "2026-10-15",
+     "created": "2026-10-14",
+     "online_date": "2026-10-14",
+     "date_label": "14 Oct 2026",
+     "meta_date": "14 October 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-sb78496.json"
+    },
+    {
+     "doi": "10.52922/rr78465",
+     "url": "https://doi.org/10.52922/rr78465",
+     "title": "Adolescent perceptions of warning messages to counter online sexual abuse",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Research Report",
+     "crossref_type": "monograph",
+     "authors": [
+      "Garrett",
+      "Sauer",
+      "Roehrer",
+      "Prichard",
+      "Scanlan"
+     ],
+     "author_label": "Garrett et al.",
+     "published": "2026-10-08",
+     "created": "2026-10-07",
+     "online_date": "2026-10-07",
+     "date_label": "7 Oct 2026",
+     "meta_date": "7 October 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-rr78465.json"
+    },
+    {
+     "doi": "10.52922/sp78380",
+     "url": "https://doi.org/10.52922/sp78380",
+     "title": "Crime & justice research 2026",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Special report",
+     "crossref_type": "edited-book",
+     "authors": [],
+     "author_label": "Unattributed",
+     "published": "2026-10-01",
+     "created": "2026-09-30",
+     "online_date": "2026-09-30",
+     "date_label": "30 Sep 2026",
+     "meta_date": "30 September 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-sp78380.json"
+    },
+    {
+     "doi": "10.52922/ti78458",
+     "url": "https://doi.org/10.52922/ti78458",
+     "title": "Pathways to onset of child sexual abuse material offending",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Trends & issues in crime and criminal justice",
+     "crossref_type": "monograph",
+     "authors": [
+      "Wrightson-Hester",
+      "McVey",
+      "Napier",
+      "Dowling",
+      "Wolbers"
+     ],
+     "author_label": "Wrightson-Hester et al.",
+     "published": "2026-09-24",
+     "created": "2026-09-23",
+     "online_date": "2026-09-23",
+     "date_label": "23 Sep 2026",
+     "meta_date": "23 September 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-ti78458.json"
+    }
+   ]
   }
  ]
 }

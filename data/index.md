@@ -1,6 +1,6 @@
-# Crossref pull — generated 2026-10-25 20:13 AEST (Brisbane)
+# Crossref pull — generated 2026-10-27 17:42 AEST (Brisbane)
 
-Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`.
+Window: articles dated on or after 2026-09-22 (35 days). Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`.
 
 ## Criminology — 2 item(s)
 - Gridlocked justice: Legislative opportunity and criminal sentencing reform in the US states, 2000—2019 — Duxbury · 9 Oct 2026 · https://doi.org/10.1111/1745-9125.70071
@@ -18,7 +18,8 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Illuminating crime prevention: Evidence from Washington, DC's street lighting upgrade — Mitre‐Becerril and Spencer · 27 Sep 2026 · https://doi.org/10.1111/1745-9133.70040
 - The effects of interview timing and body‐worn camera video review on completeness and accuracy of accounts of a lethal force scenario — Porter et al. · 24 Sep 2026 · open access · https://doi.org/10.1111/1745-9133.70041
 
-## Journal of Criminal Justice — 17 item(s)
+## Journal of Criminal Justice — 16 item(s)
+- An enduring interruption: How “Zero Tolerance” reshaped prosecutorial discretion at the U.S.–Mexico Border — Blanton · 26 Oct 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102762
 - Violent charges and temporal dynamics of pretrial recidivism — DeMichele et al. · 24 Oct 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102764
 - Marijuana dispensaries and neighborhood crime: Evidence from a statewide natural experiment in Ohio — Boehme et al. · 20 Oct 2026 (in press) · open access · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102763
 - Do early environmental factors influence the relationship between psychopathy and life outcomes: Longitudinal findings from the Dunedin multidisciplinary health and development study — Veltman et al. · 16 Oct 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102760
@@ -34,8 +35,6 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Collective efficacy and fear of crime: An empirical and theoretical exploration in the context of contemporary urban China — Wu and Liu · 28 Sep 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102749
 - Protocol for a waitlist randomized controlled trial evaluating the HeartMath stress reduction program — Schwartz et al. · 25 Sep 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102746
 - Interrogation duration and the estimation of false confession wrongful conviction risk — A reply to Smith and colleagues — Mourtgos and Adams · 22 Sep 2026 (in press) · open access · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102747
-- Experienced practitioners' perspectives on when, why, and how to confront during investigative interviews — Brimbal et al. · 21 Sep 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102744
-- ‘Intersecting paths’: Overlapping characteristics of ‘wanted’ individuals and missing persons populations in the UK — Ford and Shalev · 21 Sep 2026 (in press) · open access · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102743
 - (dropped: editorial) Editorial Board · https://doi.org/10.1016/s0047-2352(26)00145-5
 
 ## Journal of Experimental Criminology — 9 item(s)
@@ -69,7 +68,7 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Sources of Racial and Ethnic Disparities in Florida’s Monetary Sanctions: Disparate Impact or Disparate Treatment — Oramas Mora and Mitchell · 29 Sep 2026 · no abstract · https://doi.org/10.1080/07418825.2026.2728315
 - The Political Action Continuum: Predictor Archetypes from Civic Engagement to Political Violence — DeMichele and Parkin · 23 Sep 2026 · no abstract · https://doi.org/10.1080/07418825.2026.2735795
 
-## Crime & Delinquency — 10 item(s)
+## Crime & Delinquency — 8 item(s)
 - Bystander Responses to Intimate Partner Violence in Heterosexual and Same-Sex Relationships: The Role of Perpetrator Gender and Relationship Sexual Orientation — Choi et al. · 23 Oct 2026 · https://doi.org/10.1177/00111287261498856
 - Convergence Across Human Trafficking Measures: Exploring the Dark Figure of Human Trafficking in a Statewide Victimization Survey — Reid et al. · 21 Oct 2026 · open access · https://doi.org/10.1177/00111287261498853
 - Gendered Perceptions of the Police in Saudi Arabia: Trust, Procedural Justice, and Satisfaction — Alotaibi et al. · 21 Oct 2026 · https://doi.org/10.1177/00111287261498870
@@ -78,10 +77,8 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Who Does the Work? Disability and the Demands of Identity-Theft Protection — Alenzi and Alenzi · 29 Sep 2026 · https://doi.org/10.1177/00111287261493936
 - Perceived Certainty of Punishment, Reward Perceptions, and Offending Among Serious Juvenile Offenders: The Moderating Role of Temperance — Lee and Lee · 27 Sep 2026 · open access · https://doi.org/10.1177/00111287261492670
 - Exploring Whether Neuropsychological Functioning Moderates the Association Between Delinquent and Criminal Involvement and the Likelihood of Arrest — Yermek et al. · 24 Sep 2026 · https://doi.org/10.1177/00111287261488781
-- The Rainbow Tax? Sexual Orientation Disparities in Identity Theft and Recovery Burdens — Alenzi · 21 Sep 2026 · https://doi.org/10.1177/00111287261490565
-- Police Documentation of Complainant Truthfulness Concerns in Sexual Assault: A Mixed Methods Examination of Case Files — Meeker et al. · 20 Sep 2026 · https://doi.org/10.1177/00111287261488733
 
-## British Journal of Criminology — 8 item(s)
+## British Journal of Criminology — 7 item(s)
 - Towards a criminology of institutional accountability — Moore · 24 Oct 2026 · open access · https://doi.org/10.1093/bjc/azag083
 - Reconsidering Co-Governance: Systemic Corruption, Caste and Predation in Moldovan Prisons — Slade and Burciu · 21 Oct 2026 · https://doi.org/10.1093/bjc/azag085
 - Zemiology: Reconnecting Crime and Social Harm. By A. Boukli and J. Kotzé — Hamad · 16 Oct 2026 · no abstract · https://doi.org/10.1093/bjc/azag011
@@ -89,7 +86,6 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - ‘We’re not a criminal gang, just criminal friends’: Narrative ambiguity and identity performance in times of gang <i>mood</i> — Storm-Mathisen and Fraser · 15 Oct 2026 · open access · https://doi.org/10.1093/bjc/azag084
 - ‘I just take being cheated as if I’m doing charity work’: Signal mimicry strategies in China’s illegal online sexual fiction market — Evelyn · 15 Oct 2026 · open access · https://doi.org/10.1093/bjc/azag086
 - ‘We weren’t allowed to just exist together’: Emotional labour and encounters with pandemic controlwork in physical recreation spaces — Kennedy et al. · 28 Sep 2026 · open access · https://doi.org/10.1093/bjc/azag082
-- The gendered organization of exploitation: sex trafficking and masculinity — Bogdan · 20 Sep 2026 · open access · https://doi.org/10.1093/bjc/azag070
 
 ## Criminal Justice and Behavior — 11 item(s)
 - Context, Constraints, and Precautionary Action: A Preliminary Test of a Choice-Oriented Perspective of Crime Prevention — Schreck et al. · 24 Oct 2026 · open access · https://doi.org/10.1177/00938548261484622
@@ -97,8 +93,8 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Patterns of Sexual Assault Experiences and Police Reporting: A Latent Class Analysis of Medical Forensic Records — Goodman-Williams · 24 Oct 2026 · open access · https://doi.org/10.1177/00938548261494206
 - From Engaged to Burned-Out: Exploring Burnout Profiles Among Police Leaders using the Job Demands–Resources Model — Alaniz et al. · 24 Oct 2026 · https://doi.org/10.1177/00938548261497196
 - Exploring the attitudinal effects of a personality-based de-escalation training program: Findings from the National De-escalation Training Center — Tosto · 17 Oct 2026 · https://doi.org/10.1177/00938548261491834
-- Criminal Offending Among Persons with and without a Mental Illness: Does Employment, Housing, and Relationship Status Matter? — Markowitz et al. · 17 Oct 2026 · https://doi.org/10.1177/00938548261491325
 - Beyond Prison Officer Types: A Latent Profile Analysis — Meade et al. · 17 Oct 2026 · open access · https://doi.org/10.1177/00938548261492608
+- Criminal Offending Among Persons with and without a Mental Illness: Does Employment, Housing, and Relationship Status Matter? — Markowitz et al. · 17 Oct 2026 · https://doi.org/10.1177/00938548261491325
 - “Once I Was Given the Blueprint, Couldn’t Nobody Stop Me”: Postrelease Quality of Life and Reentry Barriers of People Sentenced to Life in Prison as Children — Franke and Cheston · 14 Oct 2026 · https://doi.org/10.1177/00938548261491338
 - The mediating role of depressive symptoms in the burnout–work engagement relationship among prison officers in Trinidad and Tobago — Seepersad and Pawiński · 8 Oct 2026 · https://doi.org/10.1177/00938548261491944
 - Validation of a Brief Version of the Stalking and Obsessive Relational Intrusions Questionnaire: Psychometric Properties and Measurement Invariance Across Clinical and Community Samples — Deschênes et al. · 8 Oct 2026 · open access · https://doi.org/10.1177/00938548261490072
@@ -119,7 +115,10 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Psychometric and conceptual challenges in dynamic risk factors for recidivism — Lee and Hanson · 28 Sep 2026 · no abstract · https://doi.org/10.1080/13552600.2026.2738018
 - “I could no longer tolerate it”: teachers’ agency in addressing sexual violence in Indonesia — Udasmoro et al. · 23 Sep 2026 · no abstract · https://doi.org/10.1080/13552600.2026.2731030
 
-## Trauma, Violence, & Abuse — 28 item(s)
+## Trauma, Violence, & Abuse — 29 item(s)
+- Increasing Language Access for Intimate Partner Violence Support Services: A Scoping Review — Richey et al. · 26 Oct 2026 · https://doi.org/10.1177/15248380261476082
+- The Relationship Between Early Exposure to Pornography and Later Pornography Consumption: A Systematic Literature Review — Arikan et al. · 26 Oct 2026 · open access · https://doi.org/10.1177/15248380261483629
+- Well-Being Among Latine Survivors of Intimate Partner Violence: A Systematic Review of Protective Factors and Resilience Mechanisms — Cardenas et al. · 26 Oct 2026 · https://doi.org/10.1177/15248380261494965
 - A Quantitative Meta-Analysis of Neural Response to Cognitive Challenge in Children and Adults With a History of Childhood Maltreatment — Perkins et al. · 22 Oct 2026 · https://doi.org/10.1177/15248380261489613
 - From Match to Menace: A Systematic Literature Review of Violence Across Online Dating Platforms — Woolf et al. · 22 Oct 2026 · open access · https://doi.org/10.1177/15248380261480158
 - Scam-Based Human Trafficking Through a Trauma-Informed and Intersectional Lens: An Integrative Narrative Review — Yeh et al. · 20 Oct 2026 · open access · https://doi.org/10.1177/15248380261487139
@@ -146,8 +145,15 @@ Window: articles dated on or after 2026-09-20 (35 days). Items in the issue's 21
 - Police Encounters as Institutional Learning Moments: A Systematic Review of Intimate Partner Violence Victims’ Experiences and Institutional Avoidance of the Police — Lee · 23 Sep 2026 · https://doi.org/10.1177/15248380261480166
 - A Scoping Review of Neurobiological and Brain Structural Alterations Following Child Exposure to Intimate Partner Violence — Gregorini et al. · 23 Sep 2026 · https://doi.org/10.1177/15248380261480159
 - The Relationship Between Hostile Interpretation Bias and Aggression in Adults: A Systematic Review and Three-Level Meta-Analysis — Ye et al. · 22 Sep 2026 · https://doi.org/10.1177/15248380261476086
-- Exploring Bystander Interventions and Safety in Community Settings to Address Gender-Based Violence in Lower- and Middle-Income Countries: A Narrative Review — Lee et al. · 21 Sep 2026 · https://doi.org/10.1177/15248380261476071
-- Female Aggression and Mental Health: A Systematic Review — Conrad · 21 Sep 2026 · https://doi.org/10.1177/15248380261476083
 
 ## Campbell Systematic Reviews — 1 item(s)
 - Suicide Prevention and Intervention With Military Personnel and/or Veterans: An Overview of Systematic Reviews — Maynard et al. · 19 Oct 2026 · open access · https://doi.org/10.1177/18911803261489560
+
+# Reports (by DOI prefix; dates are Crossref registration dates)
+
+## Australian Institute of Criminology — 5 item(s)
+- Elder abuse perpetration — Dowling et al. · Research Report · 22 Oct 2026 · https://doi.org/10.52922/rr78526
+- Young people's planned adherence to Australia's social media age restrictions — McVey et al. · Statistical Bulletin · 14 Oct 2026 · https://doi.org/10.52922/sb78496
+- Adolescent perceptions of warning messages to counter online sexual abuse — Garrett et al. · Research Report · 7 Oct 2026 · https://doi.org/10.52922/rr78465
+- Crime & justice research 2026 — Unattributed · Special report · 30 Sep 2026 · https://doi.org/10.52922/sp78380
+- Pathways to onset of child sexual abuse material offending — Wrightson-Hester et al. · Trends & issues in crime and criminal justice · 23 Sep 2026 · https://doi.org/10.52922/ti78458
