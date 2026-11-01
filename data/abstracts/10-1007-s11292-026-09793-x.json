@@ -1,0 +1,24 @@
+{
+ "doi": "10.1007/s11292-026-09793-x",
+ "url": "https://doi.org/10.1007/s11292-026-09793-x",
+ "title": "Crime prevention through environmental design in a midsize city: a street-segment analysis of Fort Wayne’s High Street corridor",
+ "journal": "Journal of Experimental Criminology",
+ "issn": "1573-3750",
+ "authors": [
+  "MacDonald",
+  "Grable",
+  "Baisden",
+  "Mortiz"
+ ],
+ "author_label": "MacDonald et al.",
+ "published": "2026-10-29",
+ "created": "2026-10-29",
+ "online_date": "2026-10-29",
+ "date_label": "29 Oct 2026",
+ "meta_date": "29 October 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09793-x.json",
+ "abstract": "Objectives This study examines whether Fort Wayne, Indiana’s High Street Crime Prevention Through Environmental Design (CPTED) project that combined pedestrian scale streetlighting, murals, sidewalk improvements, and neighborhood activation was associated with reductions in monthly reported crime, and whether any reduction reflected displacement or diffusion of benefits to nearby areas. Methods Using street-segment-level crime data for Fort Wayne (2010–2023), we estimate difference-in-differences Poisson regression models comparing monthly crime counts on High Street segments before and after implementation to comparison segments at varying buffer distances, including an entropy-balanced control group constructed to have similar pre-intervention crime trends. Results The High Street CPTED project was associated with a 45.2% to 60.3% reduction in monthly reported crimes over the two years following implementation, with effects building gradually as interventions were phased in. Nearby street segments also experienced crime declines, consistent with diffusion of benefits rather than displacement. Conclusions Comprehensive, layered CPTED interventions can meaningfully reduce crime in midsize cities. The study cannot isolate which specific components drove the effect. Future research should assess whether these effects persist over longer time horizons and identify the mechanisms underlying observed reductions.",
+ "publisher_url": "https://doi.org/10.1007/s11292-026-09793-x"
+}
