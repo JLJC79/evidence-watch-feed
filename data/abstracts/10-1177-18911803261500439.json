@@ -1,0 +1,23 @@
+{
+ "doi": "10.1177/18911803261500439",
+ "url": "https://doi.org/10.1177/18911803261500439",
+ "title": "Automated Approaches to Extracting Arm-Level Numerical Results From Published Studies for Meta-Analysis",
+ "journal": "Campbell Systematic Reviews",
+ "issn": "1891-1803",
+ "authors": [
+  "Lu",
+  "Wang",
+  "O’Connor"
+ ],
+ "author_label": "Lu et al.",
+ "published": "2026-11-04",
+ "created": "2026-11-04",
+ "online_date": "2026-11-04",
+ "date_label": "4 Nov 2026",
+ "meta_date": "4 November 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-18911803261500439.json",
+ "abstract": "Systematic reviews depend on accurate extraction of outcome data from primary studies, yet this step remains largely manual and time-consuming. Automation tools exist for identifying and retrieving studies and for extracting non-numeric study characteristics, but few target the numerical arm-level results needed for meta-analysis. We developed and evaluated a hybrid approach for extracting arm-level results (number of events and number enrolled per arm) for binary outcomes from two-arm randomized controlled trials published as PDFs. Rule-based string processing in R locates and parses results tables and candidate sentences in the Results section; a large language model (ChatGPT, accessed through the OpenAI API) is then used only to structure the numerical information in the selected sentences. We evaluated the approach by replicating a Cochrane meta-analysis of favipiravir for COVID-19 (11 trials; all-cause mortality at 28 to 30 days). Table-based extraction was applied to five articles and in-line text extraction to six. The extracted data matched the published arm-level results for all studies except one, where the pipeline recovered a sample size (24) consistent with the trial's results table rather than its text (25). The replicated random-effects meta-analysis gave a summary risk ratio of 0.84 (95% CI 0.49–1.46), identical to the original review, with minor differences in study weights attributable to rounding. An independent test on infectious bovine keratoconjunctivitis vaccine trials showed partial transferability, with failures confined to scanned PDFs and complex table structures. The code and the list of extracted articles are publicly available on GitHub.",
+ "publisher_url": "https://doi.org/10.1177/18911803261500439"
+}

@@ -1,0 +1,25 @@
+{
+ "doi": "10.1007/s10940-026-09696-0",
+ "url": "https://doi.org/10.1007/s10940-026-09696-0",
+ "title": "Redefining Neighborhoods: The Multiscale Impact of the Built Environment on Intimate Partner Violence",
+ "journal": "Journal of Quantitative Criminology",
+ "issn": "0748-4518",
+ "authors": [
+  "Liao",
+  "Xie",
+  "Wolf",
+  "Stewart",
+  "Oshan"
+ ],
+ "author_label": "Liao et al.",
+ "published": "2026-11-06",
+ "created": "2026-11-06",
+ "online_date": "2026-11-06",
+ "date_label": "6 Nov 2026",
+ "meta_date": "6 November 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09696-0.json",
+ "abstract": "Objectives This study examines how neighborhood definitions shape inferred relationships between built environment features and intimate partner violence (IPV) rates. We propose three principles of a theoretically informed neighborhood definition (egocentric, fuzzy, and multiscale), compare models that ignore, partially implement, and fully operationalize these principles, and identify the distinct spatial scale at which specific built environment features operate. Methods Using 2023 Chicago IPV rates at census block groups (CBGs), we model this outcome as a function of four socioeconomic controls and four built environment features: vacant buildings, green spaces, alcohol outlets, and IPV-related shelters. We compare three neighborhood constructions for measuring built environment variables. The baseline model embraces none of the principles and treats CBGs’ boundaries as neighborhoods’ boundaries. The naive egocentric models construct a fixed radius buffer around each CBG centroid to aggregate built features points, partially incorporating egocentric and fuzzy principles but imposing one spatial scale for all factors. The GASS egocentric models also use buffers but determine the spatial scale empirically, estimating variable-specific buffer sizes, and thereby fully operationalizing all principles. Results Associations between built environment features and IPV were highly sensitive to neighborhood construction, with regression coefficients varying in sign direction and statistical significance. GASS models produced more robust results and revealed distinct spatial scales that non-GASS models could not uncover. Conclusions Inconsistent built-environment findings in IPV research may stem from neighborhood construction rather than theoretical differences. Fully implementing egocentric, fuzzy, and multiscale principles using GASS offers a clearer framework for advancing neighborhood theory in criminology.",
+ "publisher_url": "https://doi.org/10.1007/s10940-026-09696-0"
+}
