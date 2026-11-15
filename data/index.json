@@ -1,14 +1,14 @@
 {
- "generated_at_utc": "2026-11-08T10:28:19Z",
- "generated_at_brisbane": "2026-11-08 20:28 AEST",
- "window_from": "2026-10-04",
+ "generated_at_utc": "2026-11-15T10:29:56Z",
+ "generated_at_brisbane": "2026-11-15 20:29 AEST",
+ "window_from": "2026-10-11",
  "window_days": 35,
  "journal_count": 14,
  "journals_failed": 0,
- "article_count": 121,
+ "article_count": 120,
  "report_source_count": 1,
  "report_sources_failed": 0,
- "report_count": 5,
+ "report_count": 6,
  "notes": [
   "Order of 'journals' is the fixed order the issue must use.",
   "online_date is 'created' for Journal of Criminal Justice (items are in press) and the online publication date otherwise.",
@@ -24,7 +24,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 2,
+   "total_results": 1,
    "items": [
     {
      "doi": "10.1111/1745-9125.70072",
@@ -42,25 +42,6 @@
      "open_access": false,
      "has_abstract": false,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70072.json"
-    },
-    {
-     "doi": "10.1111/1745-9125.70071",
-     "url": "https://doi.org/10.1111/1745-9125.70071",
-     "title": "Gridlocked justice: Legislative opportunity and criminal sentencing reform in the US states, 2000—2019",
-     "journal": "Criminology",
-     "issn": "0011-1384",
-     "authors": [
-      "Duxbury"
-     ],
-     "author_label": "Duxbury",
-     "published": "2026-10-09",
-     "created": "2026-10-09",
-     "online_date": "2026-10-09",
-     "date_label": "9 Oct 2026",
-     "meta_date": "9 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70071.json"
     }
    ],
    "dropped": []
@@ -71,7 +52,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 9,
+   "total_results": 6,
    "items": [
     {
      "doi": "10.1111/1745-9133.70047",
@@ -194,69 +175,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70048.json"
-    },
-    {
-     "doi": "10.1111/1745-9133.70042",
-     "url": "https://doi.org/10.1111/1745-9133.70042",
-     "title": "Back to the future for the Prison Rape Elimination Act (PREA): The development and validation of an actuarial risk assessment instrument for sexual violence in prison",
-     "journal": "Criminology & Public Policy",
-     "issn": "1745-9133",
-     "authors": [
-      "Clark",
-      "Duwe",
-      "McNeeley"
-     ],
-     "author_label": "Clark et al.",
-     "published": "2026-10-06",
-     "created": "2026-10-07",
-     "online_date": "2026-10-06",
-     "date_label": "6 Oct 2026",
-     "meta_date": "6 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70042.json"
-    },
-    {
-     "doi": "10.1111/1745-9133.70036",
-     "url": "https://doi.org/10.1111/1745-9133.70036",
-     "title": "Liberating criminology from criminal motivation: The legacy of Ronald V. Clarke",
-     "journal": "Criminology & Public Policy",
-     "issn": "1745-9133",
-     "authors": [
-      "Weisburd"
-     ],
-     "author_label": "Weisburd",
-     "published": "2026-10-06",
-     "created": "2026-10-07",
-     "online_date": "2026-10-06",
-     "date_label": "6 Oct 2026",
-     "meta_date": "6 October 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70036.json"
-    },
-    {
-     "doi": "10.1111/1745-9133.70037",
-     "url": "https://doi.org/10.1111/1745-9133.70037",
-     "title": "Return of the MAC, the Columbia model: Full‐scale crime intervention and public perceptions of police presence",
-     "journal": "Criminology & Public Policy",
-     "issn": "1745-9133",
-     "authors": [
-      "Boehme",
-      "Mourtgos",
-      "Tregle",
-      "Olson",
-      "Fulmer"
-     ],
-     "author_label": "Boehme et al.",
-     "published": "2026-10-06",
-     "created": "2026-10-07",
-     "online_date": "2026-10-06",
-     "date_label": "6 Oct 2026",
-     "meta_date": "6 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9133-70037.json"
     }
    ],
    "dropped": []
@@ -269,6 +187,90 @@
    "error": null,
    "total_results": 16,
    "items": [
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102771",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102771",
+     "title": "When judgment outcomes change: Exploring miscarriages of justice in South Korea",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Park",
+      "Kim",
+      "Lee",
+      "Park"
+     ],
+     "author_label": "Park et al.",
+     "published": "2027-01",
+     "created": "2026-11-15",
+     "online_date": "2026-11-15",
+     "date_label": "15 Nov 2026 (in press)",
+     "meta_date": "15 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102771.json"
+    },
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102783",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102783",
+     "title": "Breaching the ‘Walled Garden’: State-issued carceral communication technology (SCCT) and the incapacitation effect",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Dulisse",
+      "Connealy"
+     ],
+     "author_label": "Dulisse and Connealy",
+     "published": "2027-01",
+     "created": "2026-11-15",
+     "online_date": "2026-11-15",
+     "date_label": "15 Nov 2026 (in press)",
+     "meta_date": "15 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102783.json"
+    },
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102782",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102782",
+     "title": "Assessing how redeemability perceptions among law enforcement partners impact program implementation",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Davidson",
+      "Noorman",
+      "Donnelly",
+      "Nelson"
+     ],
+     "author_label": "Davidson et al.",
+     "published": "2027-01",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026 (in press)",
+     "meta_date": "11 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102782.json"
+    },
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102770",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102770",
+     "title": "“I need to pay for school. Gotta do what you Gotta do:” financial hardship, compensated dating, and constrained decision-making among college students",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Bilali",
+      "Santos"
+     ],
+     "author_label": "Bilali and Santos",
+     "published": "2027-01",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026 (in press)",
+     "meta_date": "11 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102770.json"
+    },
     {
      "doi": "10.1016/j.jcrimjus.2026.102767",
      "url": "https://doi.org/10.1016/j.jcrimjus.2026.102767",
@@ -496,110 +498,15 @@
      "open_access": false,
      "has_abstract": false,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102754.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102757",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102757",
-     "title": "“You can't get high if you don't pick it up:” Assessing how incarcerated men with substance use disorders plan for abstinence post-release",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Davidson"
-     ],
-     "author_label": "Davidson",
-     "published": "2026-11",
-     "created": "2026-10-09",
-     "online_date": "2026-10-09",
-     "date_label": "9 Oct 2026 (in press)",
-     "meta_date": "9 October 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102757.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102758",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102758",
-     "title": "Evaluating multiple alternative responses strategies to 911 calls within Durham's Holistic Empathetic Assistance Response Team (HEART) program: A quasi-experimental study",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Stainbrook",
-      "Wire",
-      "Gasdaska"
-     ],
-     "author_label": "Stainbrook et al.",
-     "published": "2026-11",
-     "created": "2026-10-09",
-     "online_date": "2026-10-09",
-     "date_label": "9 Oct 2026 (in press)",
-     "meta_date": "9 October 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102758.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102755",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102755",
-     "title": "Response to “significantly off target: A commentary on umbrella review of research on the risk–need–responsivity framework”",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Burghart",
-      "Yu",
-      "Fazel"
-     ],
-     "author_label": "Burghart et al.",
-     "published": "2026-11",
-     "created": "2026-10-06",
-     "online_date": "2026-10-06",
-     "date_label": "6 Oct 2026 (in press)",
-     "meta_date": "6 October 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102755.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102753",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102753",
-     "title": "Criminal infiltration in the legal economy: An empirical analysis of firms linked to organized crime",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Valle",
-      "Calderoni"
-     ],
-     "author_label": "Valle and Calderoni",
-     "published": "2026-11",
-     "created": "2026-10-05",
-     "online_date": "2026-10-05",
-     "date_label": "5 Oct 2026 (in press)",
-     "meta_date": "5 October 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102753.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102751",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102751",
-     "title": "Federal prosecutions of the January 6, 2021 capitol insurrectionists: The role of social media",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Mendoza",
-      "Vaughn"
-     ],
-     "author_label": "Mendoza and Vaughn",
-     "published": "2026-11",
-     "created": "2026-10-05",
-     "online_date": "2026-10-05",
-     "date_label": "5 Oct 2026 (in press)",
-     "meta_date": "5 October 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102751.json"
     }
    ],
-   "dropped": []
+   "dropped": [
+    {
+     "doi": "10.1016/j.jcrimjus.2026.102776",
+     "title": "Editorial Board",
+     "reason": "editorial"
+    }
+   ]
   },
   {
    "name": "Journal of Experimental Criminology",
@@ -609,6 +516,29 @@
    "error": null,
    "total_results": 9,
    "items": [
+    {
+     "doi": "10.1007/s11292-026-09799-5",
+     "url": "https://doi.org/10.1007/s11292-026-09799-5",
+     "title": "Does specialised treatment for sexually abusive behaviour in adolescence reduce reoffending into adulthood? A quasi-experimental follow-up to age 25",
+     "journal": "Journal of Experimental Criminology",
+     "issn": "1573-3750",
+     "authors": [
+      "Cale",
+      "Whitten",
+      "Perales",
+      "Rynne",
+      "Leclerc"
+     ],
+     "author_label": "Cale et al.",
+     "published": "2026-11-11",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026",
+     "meta_date": "11 November 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09799-5.json"
+    },
     {
      "doi": "10.1007/s11292-026-09790-0",
      "url": "https://doi.org/10.1007/s11292-026-09790-0",
@@ -780,25 +710,6 @@
      "open_access": true,
      "has_abstract": false,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09788-8.json"
-    },
-    {
-     "doi": "10.1007/s11292-026-09785-x",
-     "url": "https://doi.org/10.1007/s11292-026-09785-x",
-     "title": "Waze to beat the system: a real-world evaluation of crowdsourced enforcement alerts on driver speed",
-     "journal": "Journal of Experimental Criminology",
-     "issn": "1573-3750",
-     "authors": [
-      "Anderson"
-     ],
-     "author_label": "Anderson",
-     "published": "2026-10-05",
-     "created": "2026-10-05",
-     "online_date": "2026-10-05",
-     "date_label": "5 Oct 2026",
-     "meta_date": "5 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09785-x.json"
     }
    ],
    "dropped": []
@@ -809,7 +720,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 5,
+   "total_results": 3,
    "items": [
     {
      "doi": "10.1007/s10940-026-09696-0",
@@ -874,45 +785,6 @@
      "open_access": true,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09693-3.json"
-    },
-    {
-     "doi": "10.1007/s10940-026-09694-2",
-     "url": "https://doi.org/10.1007/s10940-026-09694-2",
-     "title": "Scale-Dependent Predictors in Spatial Criminology: Random Forest Evidence From Street Segments to Census Tracts",
-     "journal": "Journal of Quantitative Criminology",
-     "issn": "0748-4518",
-     "authors": [
-      "Andresen"
-     ],
-     "author_label": "Andresen",
-     "published": "2026-10-10",
-     "created": "2026-10-10",
-     "online_date": "2026-10-10",
-     "date_label": "10 Oct 2026",
-     "meta_date": "10 October 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09694-2.json"
-    },
-    {
-     "doi": "10.1007/s10940-026-09691-5",
-     "url": "https://doi.org/10.1007/s10940-026-09691-5",
-     "title": "Stably Unstable? – Testing the Temporal Stability of Spatial Crime Patterns",
-     "journal": "Journal of Quantitative Criminology",
-     "issn": "0748-4518",
-     "authors": [
-      "Allvin",
-      "Skardhamar"
-     ],
-     "author_label": "Allvin and Skardhamar",
-     "published": "2026-10-05",
-     "created": "2026-10-05",
-     "online_date": "2026-10-05",
-     "date_label": "5 Oct 2026",
-     "meta_date": "5 October 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s10940-026-09691-5.json"
     }
    ],
    "dropped": []
@@ -923,8 +795,30 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 6,
+   "total_results": 7,
    "items": [
+    {
+     "doi": "10.1007/s40865-026-00327-7",
+     "url": "https://doi.org/10.1007/s40865-026-00327-7",
+     "title": "From Hardship to Harm: Childhood Socioeconomic Disadvantage and Adolescent Antisocial Outcomes in Three UK Cohorts",
+     "journal": "Journal of Developmental and Life-Course Criminology",
+     "issn": "2199-4641",
+     "authors": [
+      "Rawers",
+      "McBride",
+      "Murphy",
+      "McElroy"
+     ],
+     "author_label": "Rawers et al.",
+     "published": "2026-11-12",
+     "created": "2026-11-12",
+     "online_date": "2026-11-12",
+     "date_label": "12 Nov 2026",
+     "meta_date": "12 November 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s40865-026-00327-7.json"
+    },
     {
      "doi": "10.1007/s40865-026-00329-5",
      "url": "https://doi.org/10.1007/s40865-026-00329-5",
@@ -1065,8 +959,72 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 1,
+   "total_results": 4,
    "items": [
+    {
+     "doi": "10.1080/07418825.2026.2760715",
+     "url": "https://doi.org/10.1080/07418825.2026.2760715",
+     "title": "Can a Twitter-Based Measure of Racial Heterogeneity Explain Neighborhood Crime Differences? Proposing an Ambient Population Measure of Social Disorganization",
+     "journal": "Justice Quarterly",
+     "issn": "0741-8825",
+     "authors": [
+      "Tucker",
+      "O’Brien",
+      "Hangen"
+     ],
+     "author_label": "Tucker et al.",
+     "published": "2026-11-12",
+     "created": "2026-11-13",
+     "online_date": "2026-11-12",
+     "date_label": "12 Nov 2026",
+     "meta_date": "12 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2760715.json"
+    },
+    {
+     "doi": "10.1080/07418825.2026.2757498",
+     "url": "https://doi.org/10.1080/07418825.2026.2757498",
+     "title": "Closing the Gun Show Loophole? Evidence on Federal Firearms Licensing and Background Checks",
+     "journal": "Justice Quarterly",
+     "issn": "0741-8825",
+     "authors": [
+      "Kirk",
+      "Lanfear",
+      "Humphreys"
+     ],
+     "author_label": "Kirk et al.",
+     "published": "2026-11-12",
+     "created": "2026-11-12",
+     "online_date": "2026-11-12",
+     "date_label": "12 Nov 2026",
+     "meta_date": "12 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2757498.json"
+    },
+    {
+     "doi": "10.1080/07418825.2026.2747582",
+     "url": "https://doi.org/10.1080/07418825.2026.2747582",
+     "title": "Ambient Population and Crime: The Fragility of Causal Links in Urban Environments",
+     "journal": "Justice Quarterly",
+     "issn": "0741-8825",
+     "authors": [
+      "Albors Zumel",
+      "Tizzoni",
+      "Hernández",
+      "Campedelli"
+     ],
+     "author_label": "Albors Zumel et al.",
+     "published": "2026-11-10",
+     "created": "2026-11-10",
+     "online_date": "2026-11-10",
+     "date_label": "10 Nov 2026",
+     "meta_date": "10 November 2026",
+     "open_access": true,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-07418825-2026-2747582.json"
+    },
     {
      "doi": "10.1080/07418825.2026.2747586",
      "url": "https://doi.org/10.1080/07418825.2026.2747586",
@@ -1100,8 +1058,30 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 7,
+   "total_results": 6,
    "items": [
+    {
+     "doi": "10.1177/00111287261506286",
+     "url": "https://doi.org/10.1177/00111287261506286",
+     "title": "Evaluation of the Kentucky Department of Public Advocacy’s Alternative Sentencing Worker Program",
+     "journal": "Crime & Delinquency",
+     "issn": "0011-1287",
+     "authors": [
+      "Ashworth",
+      "Thompson",
+      "White",
+      "Johnson"
+     ],
+     "author_label": "Ashworth et al.",
+     "published": "2026-11-10",
+     "created": "2026-11-10",
+     "online_date": "2026-11-10",
+     "date_label": "10 Nov 2026",
+     "meta_date": "10 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261506286.json"
+    },
     {
      "doi": "10.1177/00111287261502312",
      "url": "https://doi.org/10.1177/00111287261502312",
@@ -1207,49 +1187,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261498870.json"
-    },
-    {
-     "doi": "10.1177/00111287261493937",
-     "url": "https://doi.org/10.1177/00111287261493937",
-     "title": "Fraud Polyvictimization Among Older Adults: Living Alone, Loneliness, and Distinct Victimization Pathways",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Miao",
-      "Wang",
-      "Pei"
-     ],
-     "author_label": "Miao et al.",
-     "published": "2026-10-07",
-     "created": "2026-10-08",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261493937.json"
-    },
-    {
-     "doi": "10.1177/00111287261488775",
-     "url": "https://doi.org/10.1177/00111287261488775",
-     "title": "An Evaluation of the Effectiveness of the Day Reporting Order (DRO) in its First 10 Years of Implementation in Singapore",
-     "journal": "Crime & Delinquency",
-     "issn": "0011-1287",
-     "authors": [
-      "Poh",
-      "Khan",
-      "Yeo",
-      "Fan"
-     ],
-     "author_label": "Poh et al.",
-     "published": "2026-10-07",
-     "created": "2026-10-08",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261488775.json"
     }
    ],
    "dropped": []
@@ -1260,8 +1197,47 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 7,
+   "total_results": 9,
    "items": [
+    {
+     "doi": "10.1093/bjc/azag092",
+     "url": "https://doi.org/10.1093/bjc/azag092",
+     "title": "Rebuilding reparation: a multidimensional theory of repair in restorative justice",
+     "journal": "British Journal of Criminology",
+     "issn": "0007-0955",
+     "authors": [
+      "Suzuki",
+      "Maglione"
+     ],
+     "author_label": "Suzuki and Maglione",
+     "published": "2026-11-14",
+     "created": "2026-10-31",
+     "online_date": "2026-11-14",
+     "date_label": "14 Nov 2026",
+     "meta_date": "14 November 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag092.json"
+    },
+    {
+     "doi": "10.1093/bjc/azag089",
+     "url": "https://doi.org/10.1093/bjc/azag089",
+     "title": "Judgecraft from the margins: Decolonizing readings of Rwanda’s gacaca courts",
+     "journal": "British Journal of Criminology",
+     "issn": "0007-0955",
+     "authors": [
+      "Viebach"
+     ],
+     "author_label": "Viebach",
+     "published": "2026-11-13",
+     "created": "2026-10-24",
+     "online_date": "2026-11-13",
+     "date_label": "13 Nov 2026",
+     "meta_date": "13 November 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1093-bjc-azag089.json"
+    },
     {
      "doi": "10.1093/bjc/azag088",
      "url": "https://doi.org/10.1093/bjc/azag088",
@@ -1407,8 +1383,30 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 14,
+   "total_results": 12,
    "items": [
+    {
+     "doi": "10.1177/00938548261497176",
+     "url": "https://doi.org/10.1177/00938548261497176",
+     "title": "The Dual Role of Childhood Callous–Unemotional Traits in the Development of Triarchic Psychopathy: Early Risk Markers and Amplifiers of Stability",
+     "journal": "Criminal Justice and Behavior",
+     "issn": "0093-8548",
+     "authors": [
+      "Gouwy",
+      "Roets",
+      "Talwar",
+      "De Clercq"
+     ],
+     "author_label": "Gouwy et al.",
+     "published": "2026-11-11",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026",
+     "meta_date": "11 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261497176.json"
+    },
     {
      "doi": "10.1177/00938548261490082",
      "url": "https://doi.org/10.1177/00938548261490082",
@@ -1634,76 +1632,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491338.json"
-    },
-    {
-     "doi": "10.1177/00938548261491944",
-     "url": "https://doi.org/10.1177/00938548261491944",
-     "title": "The mediating role of depressive symptoms in the burnout–work engagement relationship among prison officers in Trinidad and Tobago",
-     "journal": "Criminal Justice and Behavior",
-     "issn": "0093-8548",
-     "authors": [
-      "Seepersad",
-      "Pawiński"
-     ],
-     "author_label": "Seepersad and Pawiński",
-     "published": "2026-10-08",
-     "created": "2026-10-08",
-     "online_date": "2026-10-08",
-     "date_label": "8 Oct 2026",
-     "meta_date": "8 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261491944.json"
-    },
-    {
-     "doi": "10.1177/00938548261490072",
-     "url": "https://doi.org/10.1177/00938548261490072",
-     "title": "Validation of a Brief Version of the Stalking and Obsessive Relational Intrusions Questionnaire: Psychometric Properties and Measurement Invariance Across Clinical and Community Samples",
-     "journal": "Criminal Justice and Behavior",
-     "issn": "0093-8548",
-     "authors": [
-      "Deschênes",
-      "Gamache",
-      "Brassard",
-      "Diguer",
-      "Daspe",
-      "Mayrand",
-      "Bouchard Asselin",
-      "Lévesque",
-      "Savard"
-     ],
-     "author_label": "Deschênes et al.",
-     "published": "2026-10-08",
-     "created": "2026-10-08",
-     "online_date": "2026-10-08",
-     "date_label": "8 Oct 2026",
-     "meta_date": "8 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261490072.json"
-    },
-    {
-     "doi": "10.1177/00938548261490080",
-     "url": "https://doi.org/10.1177/00938548261490080",
-     "title": "Impact of Well-Being-Focused Programming on Post-Release Recidivism: Encouraging Findings",
-     "journal": "Criminal Justice and Behavior",
-     "issn": "0093-8548",
-     "authors": [
-      "Lattimore",
-      "Buck Willison",
-      "Walker",
-      "Stainbrook",
-      "Boden"
-     ],
-     "author_label": "Lattimore et al.",
-     "published": "2026-10-07",
-     "created": "2026-10-08",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00938548261490080.json"
     }
    ],
    "dropped": []
@@ -1714,7 +1642,7 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 4,
+   "total_results": 1,
    "items": [
     {
      "doi": "10.1177/10790632261503565",
@@ -1737,72 +1665,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261503565.json"
-    },
-    {
-     "doi": "10.1177/10790632261494627",
-     "url": "https://doi.org/10.1177/10790632261494627",
-     "title": "Supporting Change: An Exploration Into the Impact of Circles of Support and Accountability on STABLE-2007 Risk Factors",
-     "journal": "Sexual Abuse",
-     "issn": "1079-0632",
-     "authors": [
-      "Hurd",
-      "Azizian"
-     ],
-     "author_label": "Hurd and Azizian",
-     "published": "2026-10-10",
-     "created": "2026-10-10",
-     "online_date": "2026-10-10",
-     "date_label": "10 Oct 2026",
-     "meta_date": "10 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261494627.json"
-    },
-    {
-     "doi": "10.1177/10790632261491359",
-     "url": "https://doi.org/10.1177/10790632261491359",
-     "title": "Observed Change in STABLE-2007 Scores Among Adult Males on Parole Participating in Treatment for Sexual Offending",
-     "journal": "Sexual Abuse",
-     "issn": "1079-0632",
-     "authors": [
-      "Azizian",
-      "D’Orazio",
-      "Ditchfield",
-      "Chankin"
-     ],
-     "author_label": "Azizian et al.",
-     "published": "2026-10-07",
-     "created": "2026-10-07",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491359.json"
-    },
-    {
-     "doi": "10.1177/10790632261491362",
-     "url": "https://doi.org/10.1177/10790632261491362",
-     "title": "From Childhood to Adulthood: A Systematic Review of Factors in Developmental Pathways of Sexual Aggression in Adult Males and Females",
-     "journal": "Sexual Abuse",
-     "issn": "1079-0632",
-     "authors": [
-      "Gauthier",
-      "Garant",
-      "Higgs",
-      "Ouellet",
-      "James",
-      "Proulx"
-     ],
-     "author_label": "Gauthier et al.",
-     "published": "2026-10-07",
-     "created": "2026-10-08",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-10790632261491362.json"
     }
    ],
    "dropped": []
@@ -1813,8 +1675,66 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 7,
+   "total_results": 8,
    "items": [
+    {
+     "doi": "10.1080/13552600.2026.2751977",
+     "url": "https://doi.org/10.1080/13552600.2026.2751977",
+     "title": "Findings and lessons learned from the piloting of an on-device app to prevent the viewing of child sexual abuse material",
+     "journal": "Journal of Sexual Aggression",
+     "issn": "1355-2600",
+     "authors": [
+      "Davy",
+      "Allen",
+      "Beier",
+      "Bitzan",
+      "Bogaerts",
+      "De Boeck",
+      "De Caluwé",
+      "Efthymiadou",
+      "Kamitz",
+      "Kleijn",
+      "Lambrechts",
+      "Nentzl",
+      "Oeverland",
+      "Pummell",
+      "Schilg",
+      "Smith",
+      "Terragni",
+      "Van Puyvelde",
+      "Wefers",
+      "Lundrigan"
+     ],
+     "author_label": "Davy et al.",
+     "published": "2026-11-10",
+     "created": "2026-11-10",
+     "online_date": "2026-11-10",
+     "date_label": "10 Nov 2026",
+     "meta_date": "10 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2751977.json"
+    },
+    {
+     "doi": "10.1080/13552600.2026.2754239",
+     "url": "https://doi.org/10.1080/13552600.2026.2754239",
+     "title": "Social reintegration of women survivors of sex trafficking: A scoping review",
+     "journal": "Journal of Sexual Aggression",
+     "issn": "1355-2600",
+     "authors": [
+      "V",
+      "Daniel"
+     ],
+     "author_label": "V and Daniel",
+     "published": "2026-11-10",
+     "created": "2026-11-10",
+     "online_date": "2026-11-10",
+     "date_label": "10 Nov 2026",
+     "meta_date": "10 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2754239.json"
+    },
     {
      "doi": "10.1080/13552600.2026.2754226",
      "url": "https://doi.org/10.1080/13552600.2026.2754226",
@@ -1941,26 +1861,6 @@
      "open_access": false,
      "has_abstract": false,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2744144.json"
-    },
-    {
-     "doi": "10.1080/13552600.2026.2733739",
-     "url": "https://doi.org/10.1080/13552600.2026.2733739",
-     "title": "Male rape myths in Germany: the German validation of the Male Rape Myths Scale – revised",
-     "journal": "Journal of Sexual Aggression",
-     "issn": "1355-2600",
-     "authors": [
-      "Ellecosta",
-      "Basso"
-     ],
-     "author_label": "Ellecosta and Basso",
-     "published": "2026-10-05",
-     "created": "2026-10-05",
-     "online_date": "2026-10-05",
-     "date_label": "5 Oct 2026",
-     "meta_date": "5 October 2026",
-     "open_access": true,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1080-13552600-2026-2733739.json"
     }
    ],
    "dropped": []
@@ -1971,8 +1871,150 @@
    "sort": "published",
    "ok": true,
    "error": null,
-   "total_results": 29,
+   "total_results": 34,
    "items": [
+    {
+     "doi": "10.1177/15248380261476699",
+     "url": "https://doi.org/10.1177/15248380261476699",
+     "title": "Toward a Definition and Differentiation of Secondary Traumatic Stress, Vicarious Trauma, Post-Traumatic Stress, and Compassion Fatigue in Relation to First Responders: An Integrative Literature Review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Boudilmi",
+      "Landais",
+      "Guenoun",
+      "Smaniotto",
+      "Urgese",
+      "Essadek"
+     ],
+     "author_label": "Boudilmi et al.",
+     "published": "2026-11-13",
+     "created": "2026-11-13",
+     "online_date": "2026-11-13",
+     "date_label": "13 Nov 2026",
+     "meta_date": "13 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476699.json"
+    },
+    {
+     "doi": "10.1177/15248380261497419",
+     "url": "https://doi.org/10.1177/15248380261497419",
+     "title": "Systematic Review of Economic Evaluations of Sexual Violence Prevention Interventions in Educational Settings",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Ren",
+      "Fang",
+      "Liu",
+      "Zhu",
+      "Lu",
+      "Jin",
+      "Lin",
+      "Whitaker",
+      "Trang",
+      "Minh",
+      "Anderson",
+      "Yount"
+     ],
+     "author_label": "Ren et al.",
+     "published": "2026-11-11",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026",
+     "meta_date": "11 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497419.json"
+    },
+    {
+     "doi": "10.1177/15248380261497729",
+     "url": "https://doi.org/10.1177/15248380261497729",
+     "title": "Nurses’ Knowledge, Attitudes, and Perceptions of Child Abuse and Neglect in the Gulf Cooperation Council (GCC) Countries: A systematic review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Asiri",
+      "Garstang",
+      "Wagstaff",
+      "Hallett"
+     ],
+     "author_label": "Asiri et al.",
+     "published": "2026-11-11",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026",
+     "meta_date": "11 November 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497729.json"
+    },
+    {
+     "doi": "10.1177/15248380261497728",
+     "url": "https://doi.org/10.1177/15248380261497728",
+     "title": "A Systematic Review and Network Meta-Analysis of the Effectiveness of Psychological and Psychosocial Interventions for Reducing Posttraumatic Stress, Anxiety, or Depression Among Immigrant and Refugee Children and Youth",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Rafieifar",
+      "Kirsch",
+      "Adeleke",
+      "Haran",
+      "Ponciano",
+      "Held",
+      "Ramirez"
+     ],
+     "author_label": "Rafieifar et al.",
+     "published": "2026-11-09",
+     "created": "2026-11-09",
+     "online_date": "2026-11-09",
+     "date_label": "9 Nov 2026",
+     "meta_date": "9 November 2026",
+     "open_access": true,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497728.json"
+    },
+    {
+     "doi": "10.1177/15248380261497420",
+     "url": "https://doi.org/10.1177/15248380261497420",
+     "title": "Maternal in the East, Paternal in the West? Event Type, Culture, and the Gendered Patterning of Filicide–Suicide: A Scoping Review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Lee"
+     ],
+     "author_label": "Lee",
+     "published": "2026-11-09",
+     "created": "2026-11-09",
+     "online_date": "2026-11-09",
+     "date_label": "9 Nov 2026",
+     "meta_date": "9 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497420.json"
+    },
+    {
+     "doi": "10.1177/15248380261497727",
+     "url": "https://doi.org/10.1177/15248380261497727",
+     "title": "Community-Based Child Maltreatment Prevention: A Scoping Review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Chen",
+      "Liu",
+      "Wang",
+      "Zhang"
+     ],
+     "author_label": "Chen et al.",
+     "published": "2026-11-09",
+     "created": "2026-11-09",
+     "online_date": "2026-11-09",
+     "date_label": "9 Nov 2026",
+     "meta_date": "9 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497727.json"
+    },
     {
      "doi": "10.1177/15248380261497726",
      "url": "https://doi.org/10.1177/15248380261497726",
@@ -2617,27 +2659,6 @@
      "open_access": true,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261480149.json"
-    },
-    {
-     "doi": "10.1177/15248380261476099",
-     "url": "https://doi.org/10.1177/15248380261476099",
-     "title": "Global Prevalence of Client Violence Against Social Workers: A Meta-Analysis",
-     "journal": "Trauma, Violence, & Abuse",
-     "issn": "1524-8380",
-     "authors": [
-      "Zhao",
-      "Qin",
-      "Jiao"
-     ],
-     "author_label": "Zhao et al.",
-     "published": "2026-10-07",
-     "created": "2026-10-08",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261476099.json"
     }
    ],
    "dropped": []
@@ -2806,8 +2827,52 @@
    "sort": "created",
    "ok": true,
    "error": null,
-   "total_results": 5,
+   "total_results": 6,
    "items": [
+    {
+     "doi": "10.52922/ti78564",
+     "url": "https://doi.org/10.52922/ti78564",
+     "title": "A profile of Australians aligned with the sovereign citizen movement",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Trends & issues in crime and criminal justice",
+     "crossref_type": "monograph",
+     "authors": [
+      "Morgan"
+     ],
+     "author_label": "Morgan",
+     "published": "2026-11-13",
+     "created": "2026-11-12",
+     "online_date": "2026-11-12",
+     "date_label": "12 Nov 2026",
+     "meta_date": "12 November 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-ti78564.json"
+    },
+    {
+     "doi": "10.52922/sb78533",
+     "url": "https://doi.org/10.52922/sb78533",
+     "title": "Characteristics of those who subject others to online hate in Australia",
+     "publisher": "Australian Institute of Criminology",
+     "series": "Statistical Bulletin",
+     "crossref_type": "monograph",
+     "authors": [
+      "Doody-Burras",
+      "Doherty",
+      "Bricknell"
+     ],
+     "author_label": "Doody-Burras et al.",
+     "published": "2026-11-12",
+     "created": "2026-11-11",
+     "online_date": "2026-11-11",
+     "date_label": "11 Nov 2026",
+     "meta_date": "11 November 2026",
+     "date_basis": "Crossref DOI registration date",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-sb78533.json"
+    },
     {
      "doi": "10.52922/crf78472",
      "url": "https://doi.org/10.52922/crf78472",
@@ -2901,31 +2966,6 @@
      "open_access": false,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-sb78496.json"
-    },
-    {
-     "doi": "10.52922/rr78465",
-     "url": "https://doi.org/10.52922/rr78465",
-     "title": "Adolescent perceptions of warning messages to counter online sexual abuse",
-     "publisher": "Australian Institute of Criminology",
-     "series": "Research Report",
-     "crossref_type": "monograph",
-     "authors": [
-      "Garrett",
-      "Sauer",
-      "Roehrer",
-      "Prichard",
-      "Scanlan"
-     ],
-     "author_label": "Garrett et al.",
-     "published": "2026-10-08",
-     "created": "2026-10-07",
-     "online_date": "2026-10-07",
-     "date_label": "7 Oct 2026",
-     "meta_date": "7 October 2026",
-     "date_basis": "Crossref DOI registration date",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-52922-rr78465.json"
     }
    ]
   }
