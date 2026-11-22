@@ -1,0 +1,22 @@
+{
+ "doi": "10.1177/00111287261506268",
+ "url": "https://doi.org/10.1177/00111287261506268",
+ "title": "Changing Patterns of Death Penalty Opinions in US States: Group-Based Trajectory Modeling for Public Opinion Research",
+ "journal": "Crime & Delinquency",
+ "issn": "0011-1287",
+ "authors": [
+  "Wu",
+  "McDowall"
+ ],
+ "author_label": "Wu and McDowall",
+ "published": "2026-11-19",
+ "created": "2026-11-19",
+ "online_date": "2026-11-19",
+ "date_label": "19 Nov 2026",
+ "meta_date": "19 November 2026",
+ "open_access": false,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261506268.json",
+ "abstract": "This study examines changing patterns of death penalty support across US states. Using General Social Survey data between 1974 and 2022, we assembled a representative sample of more than 69,000 US adults. We applied survey pooling methods to this sample and computed state-level estimates of death penalty support aggregated to 4-year intervals. Group-based trajectory modeling (GBTM) then categorized states into groups that followed distinct temporal support patterns. Four trajectory groups were identified, and trajectory group membership was found to be strongly associated with current death penalty policy. The results give evidence about the directions in which public support for capital punishment is moving over time and provide hints about possible futures. The analysis also illustrates how GBTM methods can recover interpretable trajectory groups under the sample size constraints of state-level public opinion data.",
+ "publisher_url": "https://doi.org/10.1177/00111287261506268"
+}

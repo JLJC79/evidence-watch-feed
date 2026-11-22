@@ -1,0 +1,23 @@
+{
+ "doi": "10.1007/s11292-026-09796-8",
+ "url": "https://doi.org/10.1007/s11292-026-09796-8",
+ "title": "Policing the 100 most harmful suspects of violence against women and girls in London: an impact evaluation of the metropolitan police service V100 program",
+ "journal": "Journal of Experimental Criminology",
+ "issn": "1573-3750",
+ "authors": [
+  "MacDonald",
+  "Barnes",
+  "Sherman"
+ ],
+ "author_label": "MacDonald et al.",
+ "published": "2026-11-17",
+ "created": "2026-11-17",
+ "online_date": "2026-11-17",
+ "date_label": "17 Nov 2026",
+ "meta_date": "17 November 2026",
+ "open_access": true,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1007-s11292-026-09796-8.json",
+ "abstract": "Objectives Estimate the effect of the Metropolitan Police Service’s V100 program, which tasks the 100 highest-harm suspects of violence against women and girls (VAWG) in London each month for special investigation, on subsequent offending harm. Methods A fuzzy regression discontinuity design exploiting the rank-101 eligibility cutoff on the Cambridge Crime Harm Index (CCHI), estimated with local polynomials and quarterly controls, using 25,535 offenders ranked across eight quarters (June 2023–March 2025) and followed for three to six months. Results Tasked offenders averaged 213 fewer total CCHI points and 201 fewer violence-only CCHI points, equivalent to − 54% and − 53% relative reductions, or a total of 56,658 fewer total CCHI points (equivalent to 155 person-years in prison). Total CCHI points at six months fell by − 50%; the violence-only six-month estimate (− 44%) was imprecise. Statistical power exceeded 0.95 for the main estimates. Conclusions Concentrating police attention on the highest-harm VAWG suspects substantially reduced victim-reported offending harm as measured by sentencing guidelines. Limitations include imperfect compliance with tasking and short follow-up periods. Subgroup analyses and standardized tasking protocols merit future research.",
+ "publisher_url": "https://doi.org/10.1007/s11292-026-09796-8"
+}

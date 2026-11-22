@@ -1,0 +1,22 @@
+{
+ "doi": "10.1177/00111287261506266",
+ "url": "https://doi.org/10.1177/00111287261506266",
+ "title": "More Gentrification, More Violent Crime Spillovers? A Spatial Analysis of Gentrification Status and Violent Crime Patterns in Cincinnati",
+ "journal": "Crime & Delinquency",
+ "issn": "0011-1287",
+ "authors": [
+  "Lewis",
+  "Pearson"
+ ],
+ "author_label": "Lewis and Pearson",
+ "published": "2026-11-19",
+ "created": "2026-11-19",
+ "online_date": "2026-11-19",
+ "date_label": "19 Nov 2026",
+ "meta_date": "19 November 2026",
+ "open_access": false,
+ "has_abstract": true,
+ "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-00111287261506266.json",
+ "abstract": "Prior criminological research has been largely inattentive to issues regarding the measurement of gentrification that have important implications for studying crime patterns in gentrifying areas and neighborhoods surrounding them. The current study uses spatial regression models with spatially-lagged gentrification indices to examine the direct and indirect spatial effects (i.e., spillover effects) of focal gentrification on violent crime patterns in Cincinnati, OH. Although gentrification did significantly increase assault levels within gentrifying communities, there was a consistent spatial spillover effect of gentrification on increasing levels of robbery and assault in neighborhoods surrounding gentrifying areas. These spatial spillovers were consistent for nearly all sensitivity analyses and model specifications, providing strong evidence that our findings are particularly robust.",
+ "publisher_url": "https://doi.org/10.1177/00111287261506266"
+}
