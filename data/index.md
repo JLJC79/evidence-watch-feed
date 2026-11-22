@@ -1,4 +1,4 @@
-# Crossref pull — generated 2026-11-23 03:28 AEST (Brisbane)
+# Crossref pull — generated 2026-11-23 08:34 AEST (Brisbane)
 
 Window: articles dated on or after 2026-10-18 (35 days). Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`.
 
@@ -11,10 +11,10 @@ Window: articles dated on or after 2026-10-18 (35 days). Items in the issue's 21
 
 ## Journal of Criminal Justice — 17 item(s)
 - Racial and ethnic inequality in U.S. prison admissions: how admission route and geography change the comparison, 1991–2021 — Cho and Rhee · 18 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102786
+- Criminalizing victims? Classification of commercial sexual exploitation of minors in NIBRS data — Smith and Warner · 17 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102787
 - Exploring the relationships between the general theory of crime and social learning in computer hacking — Holt et al. · 17 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102769
 - Within-neighborhood permeability and crime: The role of accessibility and barriers — Cho et al. · 17 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102788
 - Cynical views as barriers for change: Legal attitudes and willingness to change among formerly incarcerated individuals — Alward et al. · 17 Nov 2026 (in press) · open access · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102785
-- Criminalizing victims? Classification of commercial sexual exploitation of minors in NIBRS data — Smith and Warner · 17 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102787
 - When judgment outcomes change: Exploring miscarriages of justice in South Korea — Park et al. · 15 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102771
 - Breaching the ‘Walled Garden’: State-issued carceral communication technology (SCCT) and the incapacitation effect — Dulisse and Connealy · 15 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102783
 - Assessing how redeemability perceptions among law enforcement partners impact program implementation — Davidson et al. · 11 Nov 2026 (in press) · no abstract · https://doi.org/10.1016/j.jcrimjus.2026.102782
@@ -122,8 +122,8 @@ Window: articles dated on or after 2026-10-18 (35 days). Items in the issue's 21
 - Toward a Definition and Differentiation of Secondary Traumatic Stress, Vicarious Trauma, Post-Traumatic Stress, and Compassion Fatigue in Relation to First Responders: An Integrative Literature Review — Boudilmi et al. · 13 Nov 2026 · https://doi.org/10.1177/15248380261476699
 - Systematic Review of Economic Evaluations of Sexual Violence Prevention Interventions in Educational Settings — Ren et al. · 11 Nov 2026 · https://doi.org/10.1177/15248380261497419
 - Nurses’ Knowledge, Attitudes, and Perceptions of Child Abuse and Neglect in the Gulf Cooperation Council (GCC) Countries: A systematic review — Asiri et al. · 11 Nov 2026 · open access · https://doi.org/10.1177/15248380261497729
-- Maternal in the East, Paternal in the West? Event Type, Culture, and the Gendered Patterning of Filicide–Suicide: A Scoping Review — Lee · 9 Nov 2026 · https://doi.org/10.1177/15248380261497420
 - A Systematic Review and Network Meta-Analysis of the Effectiveness of Psychological and Psychosocial Interventions for Reducing Posttraumatic Stress, Anxiety, or Depression Among Immigrant and Refugee Children and Youth — Rafieifar et al. · 9 Nov 2026 · open access · https://doi.org/10.1177/15248380261497728
+- Maternal in the East, Paternal in the West? Event Type, Culture, and the Gendered Patterning of Filicide–Suicide: A Scoping Review — Lee · 9 Nov 2026 · https://doi.org/10.1177/15248380261497420
 - Community-Based Child Maltreatment Prevention: A Scoping Review — Chen et al. · 9 Nov 2026 · https://doi.org/10.1177/15248380261497727
 - The Heterogeneity of Executive Function in Individuals With Histories of Childhood Maltreatment: A Three-Level Meta-Analysis — Zhao et al. · 6 Nov 2026 · https://doi.org/10.1177/15248380261497726
 - Police Involvement in Child Maltreatment Cases in the United States: A Systematic Literature Review — Scheuer et al. · 6 Nov 2026 · https://doi.org/10.1177/15248380261497730

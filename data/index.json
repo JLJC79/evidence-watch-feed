@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-22T17:28:47Z",
- "generated_at_brisbane": "2026-11-23 03:28 AEST",
+ "generated_at_utc": "2026-11-22T22:34:18Z",
+ "generated_at_brisbane": "2026-11-23 08:34 AEST",
  "window_from": "2026-10-18",
  "window_days": 35,
  "journal_count": 14,
@@ -126,6 +126,26 @@
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102786.json"
     },
     {
+     "doi": "10.1016/j.jcrimjus.2026.102787",
+     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102787",
+     "title": "Criminalizing victims? Classification of commercial sexual exploitation of minors in NIBRS data",
+     "journal": "Journal of Criminal Justice",
+     "issn": "0047-2352",
+     "authors": [
+      "Smith",
+      "Warner"
+     ],
+     "author_label": "Smith and Warner",
+     "published": "2027-01",
+     "created": "2026-11-17",
+     "online_date": "2026-11-17",
+     "date_label": "17 Nov 2026 (in press)",
+     "meta_date": "17 November 2026",
+     "open_access": false,
+     "has_abstract": false,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102787.json"
+    },
+    {
      "doi": "10.1016/j.jcrimjus.2026.102769",
      "url": "https://doi.org/10.1016/j.jcrimjus.2026.102769",
      "title": "Exploring the relationships between the general theory of crime and social learning in computer hacking",
@@ -189,26 +209,6 @@
      "open_access": true,
      "has_abstract": false,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102785.json"
-    },
-    {
-     "doi": "10.1016/j.jcrimjus.2026.102787",
-     "url": "https://doi.org/10.1016/j.jcrimjus.2026.102787",
-     "title": "Criminalizing victims? Classification of commercial sexual exploitation of minors in NIBRS data",
-     "journal": "Journal of Criminal Justice",
-     "issn": "0047-2352",
-     "authors": [
-      "Smith",
-      "Warner"
-     ],
-     "author_label": "Smith and Warner",
-     "published": "2027-01",
-     "created": "2026-11-17",
-     "online_date": "2026-11-17",
-     "date_label": "17 Nov 2026 (in press)",
-     "meta_date": "17 November 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1016-j-jcrimjus-2026-102787.json"
     },
     {
      "doi": "10.1016/j.jcrimjus.2026.102771",
@@ -2173,25 +2173,6 @@
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497729.json"
     },
     {
-     "doi": "10.1177/15248380261497420",
-     "url": "https://doi.org/10.1177/15248380261497420",
-     "title": "Maternal in the East, Paternal in the West? Event Type, Culture, and the Gendered Patterning of Filicide–Suicide: A Scoping Review",
-     "journal": "Trauma, Violence, & Abuse",
-     "issn": "1524-8380",
-     "authors": [
-      "Lee"
-     ],
-     "author_label": "Lee",
-     "published": "2026-11-09",
-     "created": "2026-11-09",
-     "online_date": "2026-11-09",
-     "date_label": "9 Nov 2026",
-     "meta_date": "9 November 2026",
-     "open_access": false,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497420.json"
-    },
-    {
      "doi": "10.1177/15248380261497728",
      "url": "https://doi.org/10.1177/15248380261497728",
      "title": "A Systematic Review and Network Meta-Analysis of the Effectiveness of Psychological and Psychosocial Interventions for Reducing Posttraumatic Stress, Anxiety, or Depression Among Immigrant and Refugee Children and Youth",
@@ -2215,6 +2196,25 @@
      "open_access": true,
      "has_abstract": true,
      "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497728.json"
+    },
+    {
+     "doi": "10.1177/15248380261497420",
+     "url": "https://doi.org/10.1177/15248380261497420",
+     "title": "Maternal in the East, Paternal in the West? Event Type, Culture, and the Gendered Patterning of Filicide–Suicide: A Scoping Review",
+     "journal": "Trauma, Violence, & Abuse",
+     "issn": "1524-8380",
+     "authors": [
+      "Lee"
+     ],
+     "author_label": "Lee",
+     "published": "2026-11-09",
+     "created": "2026-11-09",
+     "online_date": "2026-11-09",
+     "date_label": "9 Nov 2026",
+     "meta_date": "9 November 2026",
+     "open_access": false,
+     "has_abstract": true,
+     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-15248380261497420.json"
     },
     {
      "doi": "10.1177/15248380261497727",
