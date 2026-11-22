@@ -1,9 +1,9 @@
-# Crossref pull — generated 2026-11-23 08:34 AEST (Brisbane)
+# Crossref pull — generated 2026-11-23 09:40 AEST (Brisbane)
 
-Window: articles dated on or after 2026-10-18 (35 days). Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`.
+Window: articles dated on or after 2026-10-18 (35 days). Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`. The 21-day subset is also published as window.md and window.json.
 
-## Criminology — 1 item(s)
-- Issue Information — Unattributed · 6 Nov 2026 · no abstract · https://doi.org/10.1111/1745-9125.70072
+## Criminology — 0 item(s)
+- (dropped: issue information) Issue Information · https://doi.org/10.1111/1745-9125.70072
 
 ## Criminology & Public Policy — 2 item(s)
 - Diffusion of benefits: A roadmap for continuing Ron Clarke's legacy — La Vigne · 5 Nov 2026 · open access · https://doi.org/10.1111/1745-9133.70047
@@ -148,15 +148,15 @@ Window: articles dated on or after 2026-10-18 (35 days). Items in the issue's 21
 - The Event-Level Association Between Alcohol Use and Intimate Partner Violence Perpetration: A Systematic Narrative Review of the Literature — Gulati et al. · 20 Oct 2026 · https://doi.org/10.1177/15248380261489614
 - The Impact of Exposure to Child Sexual Violence on Police Officers and Forensic Scientists: A Systematic Review — Boudilmi et al. · 20 Oct 2026 · open access · https://doi.org/10.1177/15248380261438779
 
-## Campbell Systematic Reviews — 5 item(s)
-- Mega-Map of Systematic Reviews and Evidence and Gap Maps on Interventions and Programs for Age-Friendly Environments — Fernandes et al. · 6 Nov 2026 · open access · https://doi.org/10.1177/18911803261496874
-- Automated Approaches to Extracting Arm-Level Numerical Results From Published Studies for Meta-Analysis — Lu et al. · 4 Nov 2026 · open access · https://doi.org/10.1177/18911803261500439
-- Identifying Evidence-Informed Guidance for Anti-Racism Allyship in Higher Education: A Scoping Review Protocol — Luctkar-Flude et al. · 30 Oct 2026 · open access · https://doi.org/10.1177/18911803261493510
-- Vision and Hearing Access in Informed Consent Practice for Clinical Research: A Systematic Literature Review — O’Hare et al. · 29 Oct 2026 · open access · https://doi.org/10.1177/18911803261488686
-- Suicide Prevention and Intervention With Military Personnel and/or Veterans: An Overview of Systematic Reviews — Maynard et al. · 19 Oct 2026 · open access · https://doi.org/10.1177/18911803261489560
+## Campbell Systematic Reviews — 0 item(s)
 - (dropped: protocol) Protocol: Trauma-Informed Care and Staff Wellbeing in Prisons and Jails: A Systematic Review · https://doi.org/10.1177/18911803261508065
 - (dropped: protocol) PROTOCOL: Interventions for Rehabilitation to Improve Self-Management in Disabling Conditions: An Overview of Systematic Reviews · https://doi.org/10.1177/18911803261501446
+- (dropped: out of scope) Mega-Map of Systematic Reviews and Evidence and Gap Maps on Interventions and Programs for Age-Friendly Environments · https://doi.org/10.1177/18911803261496874
+- (dropped: out of scope) Automated Approaches to Extracting Arm-Level Numerical Results From Published Studies for Meta-Analysis · https://doi.org/10.1177/18911803261500439
 - (dropped: protocol) PROTOCOL: Predictive Models Based on Artificial Intelligence for Adverse Events in Patients With Chronic Kidney Disease Undergoing Haemodialysis: A Scoping Review · https://doi.org/10.1177/18911803261490891
+- (dropped: protocol) Identifying Evidence-Informed Guidance for Anti-Racism Allyship in Higher Education: A Scoping Review Protocol · https://doi.org/10.1177/18911803261493510
+- (dropped: out of scope) Vision and Hearing Access in Informed Consent Practice for Clinical Research: A Systematic Literature Review · https://doi.org/10.1177/18911803261488686
+- (dropped: out of scope) Suicide Prevention and Intervention With Military Personnel and/or Veterans: An Overview of Systematic Reviews · https://doi.org/10.1177/18911803261489560
 
 # Reports (by DOI prefix; dates are Crossref registration dates)
 

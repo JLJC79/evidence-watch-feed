@@ -1,21 +1,22 @@
 {
- "generated_at_utc": "2026-11-22T22:34:18Z",
- "generated_at_brisbane": "2026-11-23 08:34 AEST",
+ "generated_at_utc": "2026-11-22T23:40:22Z",
+ "generated_at_brisbane": "2026-11-23 09:40 AEST",
  "window_from": "2026-10-18",
  "window_days": 35,
  "journal_count": 14,
  "journals_failed": 0,
- "article_count": 124,
+ "article_count": 118,
  "report_source_count": 1,
  "report_sources_failed": 0,
  "report_count": 5,
  "notes": [
   "Order of 'journals' is the fixed order the issue must use.",
   "online_date is 'created' for Journal of Criminal Justice (items are in press) and the online publication date otherwise.",
-  "Corrections, errata, corrigenda, retractions, editorials, book reviews and Campbell protocols are listed under 'dropped', not 'items'.",
+  "Corrections, errata, corrigenda, retractions, editorials, book reviews, issue-information pages, Campbell protocols and out-of-scope Campbell reviews are listed under 'dropped', not 'items'.",
   "open_access is true only when a Creative Commons licence URL is present; text-and-data-mining licences do not count.",
   "Each item's abstract_url holds the full abstract (JATS tags stripped) or null when the publisher deposits none (Elsevier and Taylor & Francis usually deposit none).",
-  "'reports' holds publishers pulled by DOI prefix (currently the Australian Institute of Criminology, 10.52922). Their online_date is the Crossref DOI registration date, which for the AIC has matched its publication date within a day; the issue should say 'DOI registered <date>' or verify the date on the item's own aic.gov.au page."
+  "'reports' holds publishers pulled by DOI prefix (currently the Australian Institute of Criminology, 10.52922). Their online_date is the Crossref DOI registration date, which for the AIC has matched its publication date within a day; the issue should say 'DOI registered <date>' or verify the date on the item's own aic.gov.au page.",
+  "window.json and window.md hold the subset dated within the issue's own window (default 21 days)."
  ],
  "journals": [
   {
@@ -25,26 +26,14 @@
    "ok": true,
    "error": null,
    "total_results": 1,
-   "items": [
+   "items": [],
+   "dropped": [
     {
      "doi": "10.1111/1745-9125.70072",
-     "url": "https://doi.org/10.1111/1745-9125.70072",
      "title": "Issue Information",
-     "journal": "Criminology",
-     "issn": "0011-1384",
-     "authors": [],
-     "author_label": "Unattributed",
-     "published": "2026-11-06",
-     "created": "2026-11-06",
-     "online_date": "2026-11-06",
-     "date_label": "6 Nov 2026",
-     "meta_date": "6 November 2026",
-     "open_access": false,
-     "has_abstract": false,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1111-1745-9125-70072.json"
+     "reason": "issue information"
     }
-   ],
-   "dropped": []
+   ]
   },
   {
    "name": "Criminology & Public Policy",
@@ -2751,142 +2740,7 @@
    "ok": true,
    "error": null,
    "total_results": 8,
-   "items": [
-    {
-     "doi": "10.1177/18911803261496874",
-     "url": "https://doi.org/10.1177/18911803261496874",
-     "title": "Mega-Map of Systematic Reviews and Evidence and Gap Maps on Interventions and Programs for Age-Friendly Environments",
-     "journal": "Campbell Systematic Reviews",
-     "issn": "1891-1803",
-     "authors": [
-      "Fernandes",
-      "Lafortune",
-      "Nhandara",
-      "Katairo",
-      "Guo",
-      "Rafoss",
-      "Shankar",
-      "Tanjong Ghogomu",
-      "Dabelko-Schoeny",
-      "Ji",
-      "van Hoof",
-      "Perracini",
-      "Choi",
-      "Shousha",
-      "Hartland",
-      "Nduku",
-      "Ravat",
-      "Hérick de Sá"
-     ],
-     "author_label": "Fernandes et al.",
-     "published": "2026-11-06",
-     "created": "2026-11-06",
-     "online_date": "2026-11-06",
-     "date_label": "6 Nov 2026",
-     "meta_date": "6 November 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-18911803261496874.json"
-    },
-    {
-     "doi": "10.1177/18911803261500439",
-     "url": "https://doi.org/10.1177/18911803261500439",
-     "title": "Automated Approaches to Extracting Arm-Level Numerical Results From Published Studies for Meta-Analysis",
-     "journal": "Campbell Systematic Reviews",
-     "issn": "1891-1803",
-     "authors": [
-      "Lu",
-      "Wang",
-      "O’Connor"
-     ],
-     "author_label": "Lu et al.",
-     "published": "2026-11-04",
-     "created": "2026-11-04",
-     "online_date": "2026-11-04",
-     "date_label": "4 Nov 2026",
-     "meta_date": "4 November 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-18911803261500439.json"
-    },
-    {
-     "doi": "10.1177/18911803261493510",
-     "url": "https://doi.org/10.1177/18911803261493510",
-     "title": "Identifying Evidence-Informed Guidance for Anti-Racism Allyship in Higher Education: A Scoping Review Protocol",
-     "journal": "Campbell Systematic Reviews",
-     "issn": "1891-1803",
-     "authors": [
-      "Luctkar-Flude",
-      "Killam",
-      "McClocklin",
-      "Umaigba-Omoruyi",
-      "Hodson",
-      "Orprecio",
-      "Dougan",
-      "Lock",
-      "Ross-White",
-      "Tyerman"
-     ],
-     "author_label": "Luctkar-Flude et al.",
-     "published": "2026-10-30",
-     "created": "2026-10-31",
-     "online_date": "2026-10-30",
-     "date_label": "30 Oct 2026",
-     "meta_date": "30 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-18911803261493510.json"
-    },
-    {
-     "doi": "10.1177/18911803261488686",
-     "url": "https://doi.org/10.1177/18911803261488686",
-     "title": "Vision and Hearing Access in Informed Consent Practice for Clinical Research: A Systematic Literature Review",
-     "journal": "Campbell Systematic Reviews",
-     "issn": "1891-1803",
-     "authors": [
-      "O’Hare",
-      "Thrimawithana",
-      "Foran",
-      "Clague",
-      "Robertson",
-      "Paynter",
-      "Saunders",
-      "Ayton"
-     ],
-     "author_label": "O’Hare et al.",
-     "published": "2026-10-29",
-     "created": "2026-10-29",
-     "online_date": "2026-10-29",
-     "date_label": "29 Oct 2026",
-     "meta_date": "29 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-18911803261488686.json"
-    },
-    {
-     "doi": "10.1177/18911803261489560",
-     "url": "https://doi.org/10.1177/18911803261489560",
-     "title": "Suicide Prevention and Intervention With Military Personnel and/or Veterans: An Overview of Systematic Reviews",
-     "journal": "Campbell Systematic Reviews",
-     "issn": "1891-1803",
-     "authors": [
-      "Maynard",
-      "Blumhagen",
-      "Matthieu",
-      "Maynard",
-      "Hyde"
-     ],
-     "author_label": "Maynard et al.",
-     "published": "2026-10-19",
-     "created": "2026-10-20",
-     "online_date": "2026-10-19",
-     "date_label": "19 Oct 2026",
-     "meta_date": "19 October 2026",
-     "open_access": true,
-     "has_abstract": true,
-     "abstract_url": "https://jljc79.github.io/evidence-watch-feed/data/abstracts/10-1177-18911803261489560.json"
-    }
-   ],
+   "items": [],
    "dropped": [
     {
      "doi": "10.1177/18911803261508065",
@@ -2899,9 +2753,34 @@
      "reason": "protocol"
     },
     {
+     "doi": "10.1177/18911803261496874",
+     "title": "Mega-Map of Systematic Reviews and Evidence and Gap Maps on Interventions and Programs for Age-Friendly Environments",
+     "reason": "out of scope"
+    },
+    {
+     "doi": "10.1177/18911803261500439",
+     "title": "Automated Approaches to Extracting Arm-Level Numerical Results From Published Studies for Meta-Analysis",
+     "reason": "out of scope"
+    },
+    {
      "doi": "10.1177/18911803261490891",
      "title": "PROTOCOL: Predictive Models Based on Artificial Intelligence for Adverse Events in Patients With Chronic Kidney Disease Undergoing Haemodialysis: A Scoping Review",
      "reason": "protocol"
+    },
+    {
+     "doi": "10.1177/18911803261493510",
+     "title": "Identifying Evidence-Informed Guidance for Anti-Racism Allyship in Higher Education: A Scoping Review Protocol",
+     "reason": "protocol"
+    },
+    {
+     "doi": "10.1177/18911803261488686",
+     "title": "Vision and Hearing Access in Informed Consent Practice for Clinical Research: A Systematic Literature Review",
+     "reason": "out of scope"
+    },
+    {
+     "doi": "10.1177/18911803261489560",
+     "title": "Suicide Prevention and Intervention With Military Personnel and/or Veterans: An Overview of Systematic Reviews",
+     "reason": "out of scope"
     }
    ]
   }
