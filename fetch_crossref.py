@@ -11,10 +11,19 @@ DOI prefix (10.52922): the AIC's own listing pages are stale or robots-blocked, 
 publication is registered with Crossref, with its abstract, usually on the day of release.
 These go under a separate 'reports' key so the 'journals' array keeps its fixed 14 entries.
 
+Since 23 November 2026 it also writes a compact 21-day "window" listing (window.md and
+window.json) that the issue run reads first. It is about a quarter of the size of index.md,
+so it fits one fetch when the run has to read through a subagent, and it carries the
+abstract file name for every item. The 35-day index files are unchanged. Campbell
+Systematic Reviews items on non-crime topics are now dropped by keyword (listed under
+'dropped: out of scope' so the exclusion can be audited); see CAMPBELL_EXCLUDE below.
+
 Outputs (under --out, default ./data):
   index.json            'journals' (one entry per journal, fixed ISSN order) and 'reports'
                         (one entry per report publisher), with compact item records
   index.md              the same listing as readable markdown (for checking by eye)
+  window.json           the 21-day subset of index.json (no 'dropped' lists)
+  window.md             the 21-day subset as markdown, one line per item, with abstract file
   abstracts/<slug>.json one file per item carrying the full abstract (JATS tags stripped)
 
 Standard library only; no pip installs. Python 3.9+.
@@ -79,9 +88,32 @@ AIC_SERIES = {
 }
 
 # Titles starting with these are dropped (and listed under 'dropped' so nothing vanishes silently).
-DROP_PREFIXES = ("correction", "erratum", "corrigendum", "retraction", "editorial", "book review")
+DROP_PREFIXES = ("correction", "erratum", "corrigendum", "retraction", "editorial", "book review", "issue information")
 # Campbell Systematic Reviews: protocols are dropped too.
 PROTOCOL_ISSN = "1891-1803"
+
+# Campbell Systematic Reviews publishes across health, education, international development and
+# social welfare as well as crime and justice. A Campbell title is dropped as 'out of scope' when
+# it contains one of CAMPBELL_EXCLUDE and none of CAMPBELL_KEEP (the keep list wins, so a review
+# of, say, health care in prisons stays). Both lists are matched case-insensitively against the
+# title. Edit these two lists to tune the filter; dropped titles are still listed in index.md.
+CAMPBELL_EXCLUDE = (
+    "health", "medical", "medicine", "clinical", "nursing", "nurses", "patient", "disease",
+    "cancer", "diabetes", "obesity", "nutrition", "vaccin", "pharmac", "surgery", "dialysis",
+    "kidney", "disabling conditions", "self-management", "rehabilitation to improve",
+    "age-friendly", "older adult", "older people", "ageing", "aging", "dementia",
+    "informed consent", "allyship", "anti-racism", "higher education", "classroom", "literacy",
+    "numeracy", "teacher", "early childhood education", "agricultur", "farmer", "cash transfer",
+    "microfinance", "sanitation", "drinking water", "humanitarian", "refugee camp",
+    "data extraction", "arm-level", "numerical results", "military personnel", "veterans",
+)
+CAMPBELL_KEEP = (
+    "crime", "criminal", "offend", "reoffend", "recidiv", "delinquen", "violence", "violent",
+    "abuse", "maltreatment", "victim", "police", "policing", "prison", "jail", "custod",
+    "detention", "court", "sentenc", "probation", "parole", "justice", "gang", "bullying",
+    "harassment", "trafficking", "firearm", "gun", "drug", "alcohol", "homicide", "terror",
+    "extremis", "radicali", "corruption", "fraud", "cyber", "restorative", "diversion",
+)
 
 SELECT = "DOI,title,published,published-online,created,container-title,author,abstract,license,URL,type"
 TAG_RE = re.compile(r"<[^>]+>")
@@ -193,8 +225,11 @@ def drop_reason(title: str, issn: str) -> str | None:
     for p in DROP_PREFIXES:
         if t.startswith(p):
             return p
-    if issn == PROTOCOL_ISSN and (t.startswith("protocol") or "protocol:" in t[:40]):
-        return "protocol"
+    if issn == PROTOCOL_ISSN:
+        if t.startswith("protocol") or "protocol:" in t[:40] or t.endswith("protocol"):
+            return "protocol"
+        if any(k in t for k in CAMPBELL_EXCLUDE) and not any(k in t for k in CAMPBELL_KEEP):
+            return "out of scope"
     return None
 
 
@@ -336,7 +371,8 @@ def fetch_prefix(name: str, prefix: str, since: str, mailto: str, rows: int) -> 
 def write_markdown(index: dict, path: Path) -> None:
     lines = [f"# Crossref pull — generated {index['generated_at_brisbane']} (Brisbane)",
              "", f"Window: articles dated on or after {index['window_from']} ({index['window_days']} days). "
-             "Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`.", ""]
+             "Items in the issue's 21-day window are a subset; apply the window at build time using `online_date`. "
+             "The 21-day subset is also published as window.md and window.json.", ""]
     for j in index["journals"]:
         status = f"{len(j['items'])} item(s)" if j["ok"] else f"FAILED: {j['error']}"
         lines.append(f"## {j['name']} — {status}")
@@ -362,11 +398,91 @@ def write_markdown(index: dict, path: Path) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def in_window(item: dict, cutoff: str) -> bool:
+    """True when the item's online_date is on or after the cutoff ('YYYY-MM-DD'). An item whose date
+    is known only to the month or year is kept, so nothing is lost for want of a day."""
+    d = item.get("online_date") or ""
+    if len(d) < 10:
+        return True
+    return d >= cutoff
+
+
+def build_window(index: dict, issue_days: int, today: dt.date) -> dict:
+    """The issue's own window: items dated within the last `issue_days` days, same structure as
+    index.json but without the 'dropped' lists and with the abstract file name on each item."""
+    cutoff = (today - dt.timedelta(days=issue_days)).isoformat()
+
+    def trim(it: dict) -> dict:
+        out = dict(it)
+        out["abstract_file"] = f"abstracts/{slug_for(it['doi'])}.json"
+        return out
+
+    journals = []
+    for j in index["journals"]:
+        items = [trim(it) for it in j["items"] if in_window(it, cutoff)]
+        journals.append({"name": j["name"], "issn": j["issn"], "sort": j["sort"], "ok": j["ok"],
+                         "error": j["error"], "items": items})
+    reports = []
+    for r in index.get("reports", []):
+        items = [trim(it) for it in r["items"] if in_window(it, cutoff)]
+        reports.append({"name": r["name"], "prefix": r["prefix"], "ok": r["ok"], "error": r["error"], "items": items})
+    return {
+        "generated_at_utc": index["generated_at_utc"],
+        "generated_at_brisbane": index["generated_at_brisbane"],
+        "window_from": cutoff,
+        "window_days": issue_days,
+        "journal_count": len(journals),
+        "article_count": sum(len(j["items"]) for j in journals),
+        "report_count": sum(len(r["items"]) for r in reports),
+        "notes": [
+            f"Subset of index.json: items whose online_date is on or after {cutoff} ({issue_days} days before the pull).",
+            "Order of 'journals' is the fixed order the issue must use; a journal with no items in the window still appears.",
+            "abstract_file is the path under data/ of the item's abstract file (abstract_url is the same file as a full URL).",
+            "Items dropped as corrections, editorials, protocols or out-of-scope Campbell reviews are not listed here; see index.md.",
+        ],
+        "journals": journals,
+        "reports": reports,
+    }
+
+
+def write_window_markdown(window: dict, path: Path) -> None:
+    lines = [f"# Issue window — generated {window['generated_at_brisbane']} (Brisbane)",
+             "", f"Items dated on or after {window['window_from']} ({window['window_days']} days). "
+             f"{window['article_count']} article(s) across {window['journal_count']} journals; "
+             f"{window['report_count']} report(s). Each line: title — author label · date · flags · DOI · abstract file.", ""]
+    for j in window["journals"]:
+        status = f"{len(j['items'])} item(s)" if j["ok"] else f"FAILED: {j['error']}"
+        lines.append(f"## {j['name']} — {status}")
+        if not j["items"] and j["ok"]:
+            lines.append("- (none in window)")
+        for it in j["items"]:
+            oa = " · open access" if it["open_access"] else ""
+            ab = " · abstract" if it["has_abstract"] else " · no abstract"
+            lines.append(f"- {it['title']} — {it['author_label']} · {it['date_label']}{oa}{ab} · https://doi.org/{it['doi']} · {it['abstract_file']}")
+        lines.append("")
+    if window.get("reports"):
+        lines.append("# Reports (dates are Crossref registration dates)")
+        lines.append("")
+        for r in window["reports"]:
+            status = f"{len(r['items'])} item(s)" if r["ok"] else f"FAILED: {r['error']}"
+            lines.append(f"## {r['name']} — {status}")
+            if not r["items"] and r["ok"]:
+                lines.append("- (none in window)")
+            for it in r["items"]:
+                oa = " · open access" if it["open_access"] else ""
+                ab = " · abstract" if it["has_abstract"] else " · no abstract"
+                series = f" · {it['series']}" if it.get("series") else ""
+                lines.append(f"- {it['title']} — {it['author_label']}{series} · {it['date_label']}{oa}{ab} · https://doi.org/{it['doi']} · {it['abstract_file']}")
+            lines.append("")
+    path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="data")
     ap.add_argument("--mailto", required=True)
     ap.add_argument("--days", type=int, default=35, help="look-back window in days (wider than the issue's 21)")
+    ap.add_argument("--issue-days", type=int, default=21, help="the issue's own window, for window.md/window.json")
     ap.add_argument("--rows", type=int, default=100)
     ap.add_argument("--base-url", default="", help="public URL of the out folder, e.g. https://user.github.io/repo/data")
     ap.add_argument("--pause", type=float, default=2.0, help="seconds between Crossref requests")
@@ -440,10 +556,11 @@ def main() -> int:
         "notes": [
             "Order of 'journals' is the fixed order the issue must use.",
             "online_date is 'created' for Journal of Criminal Justice (items are in press) and the online publication date otherwise.",
-            "Corrections, errata, corrigenda, retractions, editorials, book reviews and Campbell protocols are listed under 'dropped', not 'items'.",
+            "Corrections, errata, corrigenda, retractions, editorials, book reviews, issue-information pages, Campbell protocols and out-of-scope Campbell reviews are listed under 'dropped', not 'items'.",
             "open_access is true only when a Creative Commons licence URL is present; text-and-data-mining licences do not count.",
             "Each item's abstract_url holds the full abstract (JATS tags stripped) or null when the publisher deposits none (Elsevier and Taylor & Francis usually deposit none).",
             "'reports' holds publishers pulled by DOI prefix (currently the Australian Institute of Criminology, 10.52922). Their online_date is the Crossref DOI registration date, which for the AIC has matched its publication date within a day; the issue should say 'DOI registered <date>' or verify the date on the item's own aic.gov.au page.",
+            "window.json and window.md hold the subset dated within the issue's own window (default 21 days).",
         ],
         "journals": journals_out,
         "reports": reports_out,
@@ -451,8 +568,15 @@ def main() -> int:
     with open(out_dir / "index.json", "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=1)
     write_markdown(index, out_dir / "index.md")
+
+    window = build_window(index, args.issue_days, now_utc.date())
+    with open(out_dir / "window.json", "w", encoding="utf-8") as f:
+        json.dump(window, f, ensure_ascii=False, indent=1)
+    write_window_markdown(window, out_dir / "window.md")
+
     log(f"wrote {out_dir}/index.json: {index['article_count']} articles, {failures} journal(s) failed; "
-        f"{index['report_count']} report(s), {report_failures} report source(s) failed")
+        f"{index['report_count']} report(s), {report_failures} report source(s) failed; "
+        f"window: {window['article_count']} articles, {window['report_count']} reports")
     # Exit non-zero only if everything failed, so a partial pull still gets committed.
     return 1 if failures == len(JOURNALS) else 0
 
