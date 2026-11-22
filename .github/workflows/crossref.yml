@@ -2,9 +2,14 @@ name: Weekly Crossref pull
 
 on:
   schedule:
-    # 10:00 UTC Sunday = 20:00 Sunday in Brisbane (AEST, no daylight saving).
-    # The issue run fires 00:00 Monday Brisbane, so the file is at most ~4 hours old.
-    - cron: "0 10 * * 0"
+    # Three Sunday pulls, in UTC (Brisbane is UTC+10, no daylight saving):
+    # 00:00 UTC = 10:00 Brisbane, 04:00 UTC = 14:00 Brisbane, 09:00 UTC = 19:00 Brisbane.
+    # GitHub queues cron runs and has delayed this one by up to 7.5 hours (22 Nov 2026),
+    # so the issue run at 00:00 Monday Brisbane needs at least one pull to land early.
+    # The last run to finish wins; the data files are overwritten each time.
+    - cron: "0 0 * * 0"
+    - cron: "0 4 * * 0"
+    - cron: "0 9 * * 0"
   workflow_dispatch: {}   # lets you run it by hand from the Actions tab
 
 permissions:
